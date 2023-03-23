@@ -23,8 +23,6 @@ author:
   <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5e4x5w8cxxb&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33&amp;bv=80" async="async"></script>
 </div> -->
 
-<!-- 小熊猫 -->
-<img src="/img/panda-waving.png" class="panda no-zoom" style="width: 130px;height: 115px;opacity: 0.8;margin-bottom: -4px;padding-bottom:0;position: fixed;bottom: 0;left: 0.5rem;z-index: 1;">
 
 ## 🎨Theme
 
