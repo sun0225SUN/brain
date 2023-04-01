@@ -33,20 +33,18 @@ simplePostListLength: 3 # 简约版文章列表显示的文章数量，默认10�
 hideRightBar: true # 是否隐藏右侧边栏
 ---
 
+学习是人的天性。
 
-<!-- 小熊猫 -->
-<!-- <img src="/img/panda-waving.png" class="panda no-zoom" style="width: 130px;height: 115px;opacity: 0.8;margin-bottom: -4px;padding-bottom:0;position: fixed;bottom: 0;left: 0.5rem;z-index: 1;"> -->
+我们每个人，每天都在进行着大量的学习行为。（请注意，不要把这里的“学习”狭隘的理解为在学校里上课。）
 
-<!--
-## 关于
+无论是被动的、主动的还是无意识的学习，当我们对其进行一定的抽象后，你会发现它们都遵循一个最简单的逻辑。
 
-<!-- ### 📚Blog
-这是一个兼具博客文章、知识管理、文档查找的个人网站，主要内容是Web前端技术。如果你喜欢这个博客&主题欢迎到[GitHub](https://github.com/xugaoyi/vuepress-theme-vdoing)点个Star、获取源码，或者交换[友链](/friends/) ( •̀ ω •́ )✧ -->
+<img src="https://files.sunguoqi.com/images/202303251447164.png"/>
 
-### 🎨Theme
-本站主题是根据[VuePress](https://vuepress.vuejs.org/zh/)的默认主题修改而成。取名`Vdoing`(维度)，旨在轻松打造一个`结构化`与`碎片化`并存的个人在线知识库&博客，让你的知识海洋像一本本书一样清晰易读。配合多维索引，让每一个知识点都可以快速定位！ 更多[详情](https://github.com/xugaoyi/vuepress-theme-vdoing)。
+在信息时代，我们每天都会接收到无比庞大的信息，但究竟哪些信息真正内化成了我们自己的知识呢？
 
-<a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank"><img src='https://img.shields.io/github/stars/xugaoyi/vuepress-theme-vdoing' alt='GitHub stars' class="no-zoom"></a>
-<a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank"><img src='https://img.shields.io/github/forks/xugaoyi/vuepress-theme-vdoing' alt='GitHub forks' class="no-zoom"></a>
+我觉得我们应该好好梳理一下。。。
 
-</br>
+`2023.03.24`，我搭建了该网站，日后，它会不断更新我的所学及产出。
+
+从无序到有序，从碎片化到结构化，从输入到输出，当知识完整的经过了你的大脑，那我想他会永远属于你！
