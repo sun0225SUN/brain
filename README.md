@@ -26,8 +26,6 @@ https://mp.weixin.qq.com/s/z05Ec23oN2BwYxT-eb8G0Q
 - Why：为什么要构建一套知识管理系统？
 - How：如何构建我们的知识管理系统？
 
-<img width="300" src="https://files.sunguoqi.com/images/202303252358700.jpg"/>
-
 # 在人工智能时代谋生存
 
 近期，随着 chatGPT 的爆火，人工智能再次引起人们的广泛关注。
