@@ -30,49 +30,11 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // 导航配置
     nav: [
       { text: '首页', link: '/' },
-      {
-        text: '文库',
-        link: '/archives/',
-        items: [
-          { text: '分类', link: '/categories/' },
-          { text: '标签', link: '/tags/' },
-          { text: '归档', link: '/archives/' },
-        ],
-      },
-      {
-        text: '前端',
-        link: '/web/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
-        items: [
-          // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
-          {
-            text: '前端基础',
-            items: [
-              { text: 'HTML', link: '/pages/8143cc480faf9a11/' },
-              { text: 'CSS', link: '/pages/8143cc480faf9a11/' },
-              { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
-            ],
-          },
-          {
-            text: '前端框架',
-            items: [
-              { text: 'Vue', link: '/note/vue/' },
-              { text: 'React', link: '/note/vue/' }
-            ],
-          },
-        ],
-      },
-      {
-        text: '资源',
-        link: '/pages/beb6c0bd8a66cea6/',
-        items: [
-          { text: '网站', link: '/pages/beb6c0bd8a66cea6/' },
-          { text: '资源', link: '/pages/eee83a9211a70f9d/' },
-          { text: 'Vue资源', link: '/pages/12df8ace52d493f6/' },
-        ],
-      },
-      { text: '友链', link: 'https://blog.sunguoqi.com/links' },
-      { text: '留言', link: 'https://blog.sunguoqi.com/comments' },
-      { text: '关于', link: 'https://blog.sunguoqi.com/about' },
+      { text: 'Web开发', link: '/pages/9de702/' },
+      { text: '人工智能', link: '/pages/9879c2/' },
+      { text: '网络爬虫', link: '/pages/92b4aa/' },
+      { text: '数据可视化', link: '/pages/f62077/' },
+      { text: '计算机基础', link: '/pages/f5a1e9/' },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo
@@ -123,7 +85,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
     author: {
-      name: '小孙同学Coding', // 必需
+      name: '小孙同学', // 必需
       link: 'https://github.com/sun0225SUN', // 可选的
     },
 
@@ -156,8 +118,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
     extendFrontmatter: {
       author: {
-        name: 'xugaoyi',
-        link: 'https://github.com/xugaoyi'
+        name: '小孙同学',
+        link: 'https://github.com/sun0225SUN',
       }
     },
 
