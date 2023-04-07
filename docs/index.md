@@ -5,7 +5,7 @@ heroText: 小孙同学 の 第二大脑
 tagline: 任何没有经过自己大脑处理过的知识永远都不会真正属于你
 
 actionText: 立刻进入 →
-actionLink: /pages/9de702/
+actionLink: /pages/9207e1/
 bannerBg: none
 
 # auto => 网格纹背景(有bodyBgImg时无背景)，默认
