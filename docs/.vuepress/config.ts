@@ -31,10 +31,11 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     nav: [
       { text: '首页', link: '/' },
       { text: 'Web开发', link: '/pages/9de702/' },
+      { text: 'CS基础', link: '/pages/f5a1e9/' },
       { text: '人工智能', link: '/pages/9879c2/' },
-      { text: '网络爬虫', link: '/pages/92b4aa/' },
-      { text: '数据可视化', link: '/pages/f62077/' },
-      { text: '计算机基础', link: '/pages/f5a1e9/' },
+      { text: '艺术摄影', link: '/pages/440346/' },
+      { text: '实用英语', link: '/pages/618869/' },
+      { text: '求职面试', link: '/pages/8cd970/' },
       { text: '相关资源', link: '/pages/links/' },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
@@ -218,7 +219,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         settings: {
           // jsLib: ['http://xxx'], // 在线示例(jsfiddle, codepen)中的js依赖
           // cssLib: ['http://xxx'], // 在线示例中的css依赖
-          // vue: 'https://fastly.jsdelivr.net/npm/vue/dist/vue.min.js', // 在线示例中的vue依赖
+          vue: 'https://fastly.jsdelivr.net/npm/vue/dist/vue.min.js', // 在线示例中的vue依赖
           jsfiddle: false, // 是否显示 jsfiddle 链接
           codepen: true, // 是否显示 codepen 链接
           horizontal: false, // 是否展示为横向样式
