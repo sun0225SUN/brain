@@ -16,19 +16,13 @@
 
 从无序到有序，从碎片化到结构化，从输入到输出，当知识完整的经过了你的大脑，那我想他会永远属于你！
 
-# 正在施工...
-
-## Web 开发
-
-### 写在前面
-
-### 前端开发
-
-#### 写在前面
-
-[前端开发简史](https://brain.sunguoqi.com/pages/9207e1/)
-
-[前端学习路线](https://brain.sunguoqi.com/pages/0ef920/)
-#### 前端基础
-
-### 后端开发
+- Web 开发
+  - 写在前面
+  - 前端开发
+    - 写在前面
+      - [前端开发简史](https://brain.sunguoqi.com/pages/9207e1/)
+      - [前端学习路线](https://brain.sunguoqi.com/pages/0ef920/)
+    - 前端基础
+  - 后端开发
+    - Python
+    - Java
