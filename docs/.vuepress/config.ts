@@ -199,6 +199,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // 'fulltext-search',
     ['thirdparty-search'],// 可以添加第三方搜索链接的搜索框（继承原官方搜索框的配置参数）
     ['demo-container'],// 代码块demo
+    ['vuepress-plugin-pangu'],// 中英文间自动加空格
     [
       'vuepress-plugin-zooming', // 放大图片
       {
