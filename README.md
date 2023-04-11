@@ -1,5 +1,5 @@
 <div align="center">
-<img src="img/logo.png" alt="Brain" width="150" />
+<img src="./assets/img/logo.png" alt="Brain" width="150" />
 <h1>小孙同学 の 第二大脑</h1>
 <h4>任何没有经过自己大脑处理过的知识永远都不可能真正属于你</h4>
 </div>
