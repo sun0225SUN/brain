@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /img/brain.png
+heroImage: /img/logo.png
 heroText: 小孙同学 の 第二大脑
 tagline: 任何没有经过自己大脑处理过的知识永远都不会真正属于你
 
