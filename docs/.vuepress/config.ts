@@ -40,7 +40,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       { text: '求职面试', link: '/pages/8cd970/' },
       { text: '相关资源', link: '/pages/links/' },
     ],
-    sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
+    sidebarDepth: 1, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/avatar.png', // 导航栏logo
     repo: 'sun0225SUN/Brain', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
