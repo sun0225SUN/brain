@@ -38,6 +38,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       { text: '艺术摄影', link: '/pages/440346/' },
       { text: '实用英语', link: '/pages/618869/' },
       { text: '求职面试', link: '/pages/8cd970/' },
+      { text: '自我修养', link: '/pages/4f71db/' },
       { text: '相关资源', link: '/pages/links/' },
     ],
     sidebarDepth: 1, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
