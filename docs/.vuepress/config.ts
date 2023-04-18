@@ -35,7 +35,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       { text: 'Web开发', link: '/pages/9de702/' },
       { text: 'CS基础', link: '/pages/f5a1e9/' },
       { text: '人工智能', link: '/pages/9879c2/' },
-      { text: '艺术摄影', link: '/pages/440346/' },
       { text: '实用英语', link: '/pages/618869/' },
       { text: '求职面试', link: '/pages/8cd970/' },
       { text: '自我修养', link: '/pages/4f71db/' },
