@@ -37,8 +37,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       { text: '人工智能', link: '/pages/9879c2/' },
       { text: '实用英语', link: '/pages/618869/' },
       { text: '求职面试', link: '/pages/8cd970/' },
-      { text: '自我修养', link: '/pages/4f71db/' },
-      { text: '相关资源', link: '/pages/links/' },
+      { text: '程序人生', link: '/pages/8f67ac/' },
+      { text: '相关资源', link: '/pages/a63146/' },
     ],
     sidebarDepth: 1, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/avatar.png', // 导航栏logo
@@ -185,6 +185,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         hostname: WEB_SITE,
       },
     ],
+    
+    'reading-progress', // 阅读进度条
 
     'vuepress-plugin-baidu-autopush', // 百度自动推送
 
