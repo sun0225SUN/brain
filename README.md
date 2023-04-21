@@ -13,7 +13,7 @@
 ---
 
 <details>
-<summary open>目录</summary>
+<summary>展开目录</summary>
 
 - Web 开发
   - 写在前面
