@@ -23,7 +23,29 @@
   - 后端开发
     - Python
     - Java
-
+- CS 基础
+  - 写在前面
+  - 数据结构
+  - 计算机网路
+  - ...
+- 人工智能
+  - 写在前面
+  - 数学基础
+- 实用英语
+  - 单词
+  - 语法
+  - 阅读
+  - 写作
+- 求职面试
+  - 相关资源
+- 程序人生
+  - 程序人生
+    - [王小波](https://brain.sunguoqi.com/pages/1e60df/)
+    - [求伯君](https://brain.sunguoqi.com/pages/b26ced/)
+    - [雷军](https://brain.sunguoqi.com/pages/8f67ac/)
+    - [尤雨溪](https://brain.sunguoqi.com/pages/952abc/)
+    - [花果山大圣](https://brain.sunguoqi.com/pages/313e53/)
+- 相关资源
 ---
 
 学习是人的天性。
