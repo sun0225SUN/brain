@@ -173,6 +173,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
   // 插件配置
   plugins: <UserPlugins>[
+    [ 'feed',
+      {
+        canonical_base: 'https://brain.sunguoqi.com/',
+        count: 5000
+      }
+    ],
     [
     	{
         	name: 'custom-plugins',
