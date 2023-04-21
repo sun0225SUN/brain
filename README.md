@@ -12,6 +12,9 @@
 
 ---
 
+<details>
+<summary open>目录</summary>
+
 - Web 开发
   - 写在前面
     - [console.log("Hello World")](https://brain.sunguoqi.com/pages/9de702/)
@@ -46,6 +49,9 @@
     - [尤雨溪](https://brain.sunguoqi.com/pages/952abc/)
     - [花果山大圣](https://brain.sunguoqi.com/pages/313e53/)
 - 相关资源
+
+</details>
+
 ---
 
 学习是人的天性。
