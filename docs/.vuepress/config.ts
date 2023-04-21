@@ -37,7 +37,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       { text: '人工智能', link: '/pages/9879c2/' },
       { text: '实用英语', link: '/pages/618869/' },
       { text: '求职面试', link: '/pages/8cd970/' },
-      { text: '程序人生', link: '/pages/8f67ac/' },
+      { text: '程序人生', link: '/pages/1e60df/' },
       { text: '相关资源', link: '/pages/a63146/' },
     ],
     sidebarDepth: 1, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
@@ -139,6 +139,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       author: {
         name: '小孙同学',
         link: 'https://github.com/sun0225SUN',
+      },
+      feed:{
+        enable: true,
+        description: '请更改描述'
       }
     },
 

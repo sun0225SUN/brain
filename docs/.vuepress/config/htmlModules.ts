@@ -20,19 +20,19 @@ import { VdoingThemeConfig } from 'vuepress-theme-vdoing/types'
  * ②注：windowLB 和 windowRB：1.展示区块最大宽高200px*400px。2.请给自定义元素定一个不超过200px*400px的宽高。3.在屏幕宽度小于960px时无论如何都不会显示。
  */
 const htmlModule: VdoingThemeConfig['htmlModules'] = {
-  homeSidebarB:
-    `<div style="padding: 0.95rem">
-    <p style="
-      color: var(--textColor);
-      opacity: 0.9;
-      font-size: 20px;
-      font-weight: bold;
-      margin: 0 0 8px 0;
-    ">公众号</p>
-    <img src="https://open.weixin.qq.com/qr/code?username=gh_0cf4b813918c"  style="width:100%;" />
-    关注公众号，回复[<b>前端资源</b>]，可获取 <a href="https://game.xugaoyi.com" arget="_blank" >前端学习资源<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>
-    </p>
-    </div>`,
+  // homeSidebarB:
+  //   `<div style="padding: 0.95rem">
+  //   <p style="
+  //     color: var(--textColor);
+  //     opacity: 0.9;
+  //     font-size: 20px;
+  //     font-weight: bold;
+  //     margin: 0 0 8px 0;
+  //   ">公众号</p>
+  //   <img src="https://open.weixin.qq.com/qr/code?username=gh_0cf4b813918c"  style="width:100%;" />
+  //   关注公众号，回复[<b>前端资源</b>]，可获取 <a href="https://game.xugaoyi.com" arget="_blank" >前端学习资源<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>
+  //   </p>
+  //   </div>`,
   // `<!-- 纵向自适应 -->
   // <ins class="adsbygoogle"
   //     style="display:block;padding: 0.95rem;"
@@ -73,17 +73,16 @@ const htmlModule: VdoingThemeConfig['htmlModules'] = {
   //         (adsbygoogle = window.adsbygoogle || []).push({});
   //     </script>`,
   // pageTshowMode: 'article',
-  // pageB:
-  //   `<!-- 横向自适应 -->
-  //     <ins class="adsbygoogle"
-  //         style="display:block"
-  //         data-ad-client="ca-pub-7828333725993554"
-  //         data-ad-slot="6620245489"
-  //         data-ad-format="auto"
-  //         data-full-width-responsive="true"></ins>
-  //     <script>
-  //         (adsbygoogle = window.adsbygoogle || []).push({});
-  //     </script>`,
+  pageB:
+    `<div class="donation">
+    <button>打赏</button>
+    <div class="main">
+        <div class="pic">
+            <img src="https://blog.sunguoqi.com/upload/avatar.png" alt="微信">
+            <img src="https://blog.sunguoqi.com/upload/avatar.png" alt="支付宝">
+        </div>
+    </div>
+  </div>`,
   // pageBshowMode: 'article',
   // windowLB: // 会遮挡部分侧边栏
   //   `<!-- 固定200*200px -->
