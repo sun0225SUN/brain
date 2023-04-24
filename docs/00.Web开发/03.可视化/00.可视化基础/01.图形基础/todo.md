@@ -1,12 +1,12 @@
 ---
 title: todo
-date: 2023-04-22 04:52:01
-permalink: /pages/cff6ae/
+date: 2023-04-25 01:02:23
+permalink: /pages/d4f507/
 categories:
   - Web开发
-  - 前端开发
-  - 大前端开发
-  - uni-app
+  - 可视化
+  - 可视化基础
+  - 图形基础
 tags:
   - 
 author: 

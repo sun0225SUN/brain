@@ -1,12 +1,11 @@
 ---
 title: todo
-date: 2023-04-22 03:44:05
-permalink: /pages/755a42/
+date: 2023-04-25 01:02:50
+permalink: /pages/00207c/
 categories:
   - Web开发
-  - 前端开发
-  - 前端内功
-  - Javascript
+  - 可视化
+  - Echarts
 tags:
   - 
 author: 
