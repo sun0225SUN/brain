@@ -73,7 +73,7 @@ export function resolvePage(pages, rawPath, base) {
       })
     }
   }
-  // console.error(`[vuepress] No matching page found for sidebar item "${rawPath}"`)
+  console.error(`[vuepress] No matching page found for sidebar item "${rawPath}"`)
   return {}
 }
 
@@ -227,9 +227,9 @@ function resolveItem(item, pages, base, groupDepth = 1) {
     })
   } else {
     if (groupDepth > 3) {
-      // console.error(
-      //   '[vuepress] detected a too deep nested sidebar group.'
-      // )
+      console.error(
+        '[vuepress] detected a too deep nested sidebar group.'
+      )
     }
     const children = item.children || []
     if (children.length === 0 && item.path) {
