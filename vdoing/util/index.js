@@ -226,7 +226,7 @@ function resolveItem(item, pages, base, groupDepth = 1) {
       title: item[1]
     })
   } else {
-    if (groupDepth > 3) {
+    if (groupDepth > 99) {
       console.error(
         '[vuepress] detected a too deep nested sidebar group.'
       )
