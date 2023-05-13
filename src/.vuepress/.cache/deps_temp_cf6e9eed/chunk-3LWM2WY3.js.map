@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../node_modules/.pnpm/mermaid@10.1.0/node_modules/.pnpm/d3-selection@3.0.0/node_modules/d3-selection/src/selectAll.js"],
+  "sourcesContent": ["import array from \"./array.js\";\nimport {Selection, root} from \"./selection/index.js\";\n\nexport default function(selector) {\n  return typeof selector === \"string\"\n      ? new Selection([document.querySelectorAll(selector)], [document.documentElement])\n      : new Selection([array(selector)], root);\n}\n"],
+  "mappings": ";;;;;;;AAGe,SAAQA,EAACC,GAAU;AAChC,SAAO,OAAOA,KAAa,WACrB,IAAIC,GAAU,CAAC,SAAS,iBAAiBD,CAAQ,CAAC,GAAG,CAAC,SAAS,eAAe,CAAC,IAC/E,IAAIC,GAAU,CAACC,GAAMF,CAAQ,CAAC,GAAGG,EAAI;AAC7C;",
+  "names": ["selectAll", "selector", "Selection", "array", "root"]
+}

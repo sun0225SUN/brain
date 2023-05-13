@@ -1,0 +1,14 @@
+export const data = JSON.parse("{\"key\":\"v-7bdab481\",\"path\":\"/life/programmer/qiubojun.html\",\"title\":\"求伯君\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"求伯君\",\"icon\":\"markdown\",\"order\":2,\"category\":[\"Guide\"],\"tag\":[\"Markdown\"],\"description\":\"VuePress basically generate pages from Markdown files. So you can use it to generate documentation or blog sites easily. You should create and write Markdown files, so that VueP...\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://brain.sunguoqi.com/life/programmer/qiubojun.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"小孙同学Coding\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"求伯君\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"VuePress basically generate pages from Markdown files. So you can use it to generate documentation or blog sites easily. You should create and write Markdown files, so that VueP...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:author\",\"content\":\"小孙同学\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Markdown\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"求伯君\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"小孙同学\\\",\\\"url\\\":\\\"https://sunguoqi.com\\\"}]}\"]]},\"headers\":[{\"level\":2,\"title\":\"Markdown Introduction\",\"slug\":\"markdown-introduction\",\"link\":\"#markdown-introduction\",\"children\":[]},{\"level\":2,\"title\":\"Markdown Config\",\"slug\":\"markdown-config\",\"link\":\"#markdown-config\",\"children\":[]},{\"level\":2,\"title\":\"Markdown Extension\",\"slug\":\"markdown-extension\",\"link\":\"#markdown-extension\",\"children\":[{\"level\":3,\"title\":\"VuePress Enhancement\",\"slug\":\"vuepress-enhancement\",\"link\":\"#vuepress-enhancement\",\"children\":[]},{\"level\":3,\"title\":\"Theme Enhancement\",\"slug\":\"theme-enhancement\",\"link\":\"#theme-enhancement\",\"children\":[]}]}],\"readingTime\":{\"minutes\":2.63,\"words\":790},\"filePathRelative\":\"life/programmer/qiubojun.md\",\"autoDesc\":true,\"excerpt\":\"<p>VuePress basically generate pages from Markdown files. So you can use it to generate documentation or blog sites easily.</p>\\n<p>You should create and write Markdown files, so that VuePress can convert them to different pages according to file structure.</p>\\n\"}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

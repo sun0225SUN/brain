@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../node_modules/.pnpm/mermaid@10.1.0/node_modules/mermaid/src/diagrams/flowchart/flowDiagram-v2.ts"],
+  "sourcesContent": ["// @ts-ignore: TODO Fix ts errors\nimport flowParser from './parser/flow';\nimport flowDb from './flowDb';\nimport flowRendererV2 from './flowRenderer-v2';\nimport flowStyles from './styles';\nimport { MermaidConfig } from '../../config.type';\nimport { setConfig } from '../../config';\n\nexport const diagram = {\n  parser: flowParser,\n  db: flowDb,\n  renderer: flowRendererV2,\n  styles: flowStyles,\n  init: (cnf: MermaidConfig) => {\n    if (!cnf.flowchart) {\n      cnf.flowchart = {};\n    }\n    cnf.flowchart.arrowMarkerAbsolute = cnf.arrowMarkerAbsolute;\n    // flowchart-v2 uses dagre-wrapper, which doesn't have access to flowchart cnf\n    setConfig({ flowchart: { arrowMarkerAbsolute: cnf.arrowMarkerAbsolute } });\n    flowRendererV2.setConf(cnf.flowchart);\n    flowDb.clear();\n    flowDb.setGen('gen-2');\n  },\n};\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;AAQO,IAAMA,IAAU;EACrB,QAAQC;EACR,IAAIC;EACJ,UAAUC;EACV,QAAQC;EACR,MAAM,CAACC,MAAuB;AACvBA,MAAI,cACPA,EAAI,YAAY,CAAA,IAEdA,EAAA,UAAU,sBAAsBA,EAAI,qBAExCC,GAAU,EAAE,WAAW,EAAE,qBAAqBD,EAAI,oBAAA,EAAA,CAAuB,GAC1DF,GAAA,QAAQE,EAAI,SAAS,GACpCH,GAAO,MAAM,GACbA,GAAO,OAAO,OAAO;EACvB;AACF;",
+  "names": ["diagram", "flowParser", "flowDb", "flowRendererV2", "flowStyles", "cnf", "setConfig"]
+}
