@@ -47,7 +47,7 @@ export default hopeTheme({
   plugins: {
 
     comment: {
-      // @ ts-expect-error: You should generate and use your own comment service
+      // @ts-expect-error: You should generate and use your own comment service
       provider: "Giscus",
       repo:"sun0225SUN/Brain",
       repoId:"R_kgDOJNZRqA",

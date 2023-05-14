@@ -17,7 +17,7 @@ export const sideBar = sidebar({
     {
       text: "CSS",
       icon: "note",
-      prefix: "html/",
+      prefix: "css/",
       children: "structure",
     },
     {
