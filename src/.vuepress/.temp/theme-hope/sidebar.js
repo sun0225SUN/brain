@@ -1,1 +1,0 @@
-export const sidebarData = {"/web/front/":["history","road"],"/web/html/":["page","markdown","disable","encrypt"],"/cs/web/":["page","markdown","disable","encrypt"],"/ai/web/":["page","markdown","disable","encrypt"],"/en/web/":["page","markdown","disable","encrypt"],"/life/programmer/":["wangxiaobo","qiubojun","leijun","youyuxi"]};
