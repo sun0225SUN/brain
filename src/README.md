@@ -32,5 +32,5 @@ features:
     # link: https://theme-hope.vuejs.press/guide/feature/comment.html
 
 copyright: false
-footer: none（display:none）
+# footer: 
 ---
