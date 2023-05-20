@@ -46,7 +46,7 @@ export const sideBar = sidebar({
       children: [
         {
           text: "Hello",
-          icon: "anonymous",
+          icon: "discover",
           prefix: "hello/",
           children: "structure",
           collapsible: true,
