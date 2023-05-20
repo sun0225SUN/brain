@@ -3,7 +3,7 @@ import { sidebar } from "vuepress-theme-hope";
 export const sideBar = sidebar({
   "/web/": [
     {
-      icon: "discover",
+      icon: "guide",
       text: "前言",
       prefix: "front/",
       children: "structure",
@@ -40,6 +40,20 @@ export const sideBar = sidebar({
     {
       text: "Vue",
       icon: "vue",
+      prefix: "html/",
+      children: "structure",
+      collapsible: true,
+    },
+    {
+      text: "Node",
+      icon: "nodeJS",
+      prefix: "html/",
+      children: "structure",
+      collapsible: true,
+    },
+    {
+      text: "Electron",
+      icon: "window",
       prefix: "html/",
       children: "structure",
       collapsible: true,

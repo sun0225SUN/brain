@@ -2,7 +2,7 @@
 # This is the title of the article
 title: 前端开发学习路线
 # This is the icon of the page
-icon: page
+icon: line
 # This control sidebar order
 order: 2
 # Set author

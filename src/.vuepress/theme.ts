@@ -18,7 +18,7 @@ export default hopeTheme({
 
   repo: "sun0225SUN/Brain",
 
-  docsDir: "demo/theme-docs/src",
+  docsDir: "/src",
 
   locales: {
     "/": {
