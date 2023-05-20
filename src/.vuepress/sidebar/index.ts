@@ -40,9 +40,46 @@ export const sideBar = sidebar({
     {
       text: "Vue",
       icon: "vue",
-      prefix: "html/",
-      children: "structure",
+      prefix: "vue/",
+      // children: "structure",
       collapsible: true,
+      children: [
+        {
+          text: "Hello",
+          icon: "anonymous",
+          prefix: "hello/",
+          children: "structure",
+          collapsible: true,
+        },
+        {
+          text: "Learn",
+          icon: "hot",
+          prefix: "hello/",
+          children: "structure",
+          collapsible: true,
+        },
+        {
+          text: "Use",
+          icon: "operate",
+          prefix: "hello/",
+          children: "structure",
+          collapsible: true,
+        },
+        {
+          text: "Know",
+          icon: "ask",
+          prefix: "hello/",
+          children: "structure",
+          collapsible: true,
+        },
+        {
+          text: "Love",
+          icon: "like",
+          prefix: "hello/",
+          children: "structure",
+          collapsible: true,
+        },
+      ],
     },
     {
       text: "Node",
