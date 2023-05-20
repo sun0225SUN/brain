@@ -24,3 +24,16 @@
 .footer-wrapper{
     display:none
 }
+
+// 图片居中&圆角
+.theme-hope-content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3%;
+}
+
+// 文字缩进
+.theme-hope-content>p {
+    text-indent: 2em;
+}

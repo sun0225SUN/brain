@@ -73,6 +73,7 @@ export default hopeTheme({
       gfm: true,
       imgLazyload: true,
       imgSize: true,
+      imgMark: true,
       include: true,
       katex: true,
       mark: true,

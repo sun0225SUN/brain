@@ -1,72 +1,40 @@
 ---
-# This is the title of the article
 title: 前端开发学习路线
-# This is the icon of the page
 icon: line
-# This control sidebar order
 order: 2
-# Set author
-author: Ms.Hope
-# Set writing time
-date: 2020-01-01
-# A page can have multiple categories
-category:
-  - Guide
-# A page can have multiple tags
-tag:
-  - Page config
-  - Guide
-# this page is sticky in article list
-sticky: true
-# this page will appear in starred articles
-star: true
-# You can customize footer content
-footer: Footer content for test
-# You can customize copyright content
-copyright: No Copyright
 ---
 
-Content before `more` comment is regarded as page excerpt.
+## 🚧 正在施工中。。。
 
-<!-- more -->
+## 学习路线
 
-## Page Information
+## 学习资料
 
-You can set page information in Markdown's Frontmatter.
+### 在线资源
 
-- The author is Ms.Hope.
-- The writing date is January 1, 2020
-- Category is "Guide"
-- Tags are "Page Config" and "Guide"
+### 相关书籍
 
-## Page Content
+### 相关课程
+### 交流社区
 
-You are free to write your Markdown here.
+## 思维导图
 
-::: tip Assets
+## 相关资源
 
-- You can place images besides your Markdown files, but you should use **relative links** (i.e.: starting with `./`) for them.
+## 本文参考
 
-- For images in `.vuepress/public` directory, please use absolute links (i.e.: starting with `/`) for them.
+https://roadmap.sh/frontend
 
-:::
+https://roadmap.shengxinjing.cn/
 
-The theme contains a custom badge:
+https://luxian.yupi.icu/#/roadmap/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF
 
-> A dark blue badge text badge at the end of line. <Badge text="Badge text" color="#242378" />
+https://objtube.github.io/front-end-roadmap/#/
 
-## Page Structure
+https://book.itheima.net/learnline/1258676978588860418
 
-This page should contain:
+https://www.w3cschool.cn/ctjpr/
 
-- [BreadCrumb](https://theme-hope.vuejs.press/guide/layout/breadcrumb.html)
-- [Title and information](https://theme-hope.vuejs.press/guide/feature/page-info.html)
-- [TOC (Table of Contents)](https://theme-hope.vuejs.press/guide/layout/page.html#header-list)
-- [Meta information including update time and contributors](https://theme-hope.vuejs.press/guide/feature/meta.html)
-- [Comments](https://theme-hope.vuejs.press/guide/feature/comment.html)
-- [Navbar](https://theme-hope.vuejs.press/guide/layout/navbar.html)
-- [Sidebar](https://theme-hope.vuejs.press/guide/layout/sidebar.html)
-- [Footer](https://theme-hope.vuejs.press/guide/layout/footer.html)
-- Back to top button
+https://developer.mozilla.org/zh-CN/docs/Learn
 
-You can customize them in theme options and page frontmatter.
+https://developer.aliyun.com/learning/roadmap/frontend
