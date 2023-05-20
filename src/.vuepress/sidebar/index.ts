@@ -11,35 +11,35 @@ export const sideBar = sidebar({
     },
     {
       text: "HTML",
-      icon: "note",
+      icon: "html",
       prefix: "html/",
       children: "structure",
       collapsible: true,
     },
     {
       text: "CSS",
-      icon: "note",
-      prefix: "css/",
+      icon: "css",
+      prefix: "html/",
       children: "structure",
       collapsible: true,
     },
     {
       text: "JavaScript",
-      icon: "note",
+      icon: "javascript",
       prefix: "html/",
       children: "structure",
       collapsible: true,
     },
     {
       text: "ES6",
-      icon: "note",
+      icon: "es6",
       prefix: "html/",
       children: "structure",
       collapsible: true,
     },
     {
       text: "Vue",
-      icon: "note",
+      icon: "vue",
       prefix: "html/",
       children: "structure",
       collapsible: true,
@@ -47,13 +47,6 @@ export const sideBar = sidebar({
   ],
   "/cs/": [
    {
-      icon: "discover",
-      text: "前言",
-      prefix: "web/",
-      children: "structure",
-      collapsible: true,
-    },
-    {
       icon: "discover",
       text: "前言",
       prefix: "web/",
@@ -83,9 +76,37 @@ export const sideBar = sidebar({
     {
        icon: "discover",
        text: "程序人生",
-       prefix: "programmer/",
+       prefix: "coder/",
        children: "structure",
        collapsible: true,
-     }
+     },
+     {
+      icon: "discover",
+      text: "生存指南",
+      prefix: "coder/",
+      children: "structure",
+      collapsible: true,
+    },
+     {
+      icon: "discover",
+      text: "延寿指南",
+      prefix: "coder/",
+      children: "structure",
+      collapsible: true,
+    },
+    {
+      icon: "discover",
+      text: "恋爱指南",
+      prefix: "coder/",
+      children: "structure",
+      collapsible: true,
+    },
+    {
+      icon: "discover",
+      text: "做饭指南",
+      prefix: "coder/",
+      children: "structure",
+      collapsible: true,
+    }
    ],
 });

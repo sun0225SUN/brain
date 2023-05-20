@@ -1,8 +1,8 @@
 ---
 # This is the title of the article
-title: Page Config
+title: WIP
 # This is the icon of the page
-icon: page
+icon: note
 # This control sidebar order
 order: 1
 # Set author

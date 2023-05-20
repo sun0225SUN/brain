@@ -1,5 +1,5 @@
 ---
-title: Web前端开发简史
+title: 前端技术发展简史
 icon: markdown
 order: 2
 category:

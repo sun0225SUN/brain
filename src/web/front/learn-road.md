@@ -1,6 +1,6 @@
 ---
 # This is the title of the article
-title: Web前端学习路线
+title: 前端开发学习路线
 # This is the icon of the page
 icon: page
 # This control sidebar order
