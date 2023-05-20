@@ -62,6 +62,7 @@ export default hopeTheme({
 
     // all features are enabled for demo, only preserve features you need here
     mdEnhance: {
+      card: true,
       align: true,
       attrs: true,
       chart: true,
@@ -163,7 +164,21 @@ export default hopeTheme({
 
     feed: {
       rss: true,
-    }
+    },
 
+    components: {
+      // 你想使用的组件
+      components: [
+        "AudioPlayer",
+        "Badge",
+        "BiliBili",
+        "CodePen",
+        "PDF",
+        "Replit",
+        "StackBlitz",
+        "VideoPlayer",
+        "YouTube",
+      ],
+    },
   },
 });

@@ -4,6 +4,12 @@ icon: people
 order: 2
 ---
 
+::: info 原文信息
+原文标题: An interview with Vue.js creator Evan You
+
+原文链接: [英文版](https://www.freecodecamp.org/news/between-the-wires-an-interview-with-vue-js-creator-evan-you-e383cbf57cc4/) [中文版](https://www.jianshu.com/p/3092b382ee80)
+:::
+
 ## 和我们讲讲你的童年和你的家乡吧
 
 好的，我出生在中国，我的家乡叫无锡，一个中等规模的城市，离上海很近。然后我在上海念了三年高中，因此经常两地来回跑。高中毕业后我去了美国念大学。
@@ -131,11 +137,4 @@ Vue 的用户群非常有活力。许多 Vue 用户来自 Laravel 社区，他�
 
 那肯定是 TJ Holowaychuck 和 Guillermo Rauch。因为我不是计算机专业的。我基本上通过看网上的资源和书来学习编程，还有一个重要的学习方法就是看别人的代码。我看 TJ 的代码时，就总是感觉写得非常优雅。优雅是当时蹦到我脑海中的第一个词，并且对我的影响很大。TJ 绝对是我的偶像。
 
-<iframe width="100%" height="500px" src="//player.bilibili.com/player.html?aid=627109752&bvid=BV11t4y1i7y2&cid=235210461&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
-::: tip
-原文标题: An interview with Vue.js creator Evan You
-
-原文链接: [英文版](https://www.freecodecamp.org/news/between-the-wires-an-interview-with-vue-js-creator-evan-you-e383cbf57cc4/) [中文版](https://www.jianshu.com/p/3092b382ee80)
-
-:::
+<BiliBili bvid="BV11t4y1i7y2" />
