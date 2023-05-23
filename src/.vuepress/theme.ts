@@ -9,7 +9,7 @@ export default hopeTheme({
 
   author: {
     name: "小孙同学",
-    url: "https://sunguoqi.com",
+    url: "https://blog.sunguoqi.com",
   },
 
   iconAssets: "iconfont",
