@@ -82,8 +82,29 @@ export const sideBar = sidebar({
       ],
     },
     {
+      text: "React",
+      icon: "react",
+      prefix: "html/",
+      children: "structure",
+      collapsible: true,
+    },
+    {
       text: "Node",
       icon: "nodeJS",
+      prefix: "html/",
+      children: "structure",
+      collapsible: true,
+    },
+    {
+      text: "Nuxt",
+      icon: "customize",
+      prefix: "html/",
+      children: "structure",
+      collapsible: true,
+    },
+    {
+      text: "Next",
+      icon: "software",
       prefix: "html/",
       children: "structure",
       collapsible: true,
@@ -94,7 +115,21 @@ export const sideBar = sidebar({
       prefix: "html/",
       children: "structure",
       collapsible: true,
-    }
+    },
+    {
+      text: "开发工具",
+      icon: "operate",
+      prefix: "html/",
+      children: "structure",
+      collapsible: true,
+    },
+    {
+      text: "数据可视化",
+      icon: "eye",
+      prefix: "html/",
+      children: "structure",
+      collapsible: true,
+    },
   ],
   "/cs/": [
    {

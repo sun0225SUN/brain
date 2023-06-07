@@ -1,19 +1,19 @@
 // place your custom styles here
 // 垂直布局
-.hero-info-wrapper{
+.vp-hero-info{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
     // 信息居中
-    .hero-info{
+    .vp-hero-infos{
         display: flex;
         align-items: center;
         justify-content: space-evenly;
         flex-direction: column;
     }
     // 描述字体
-    .description {
+    .vp-description {
         max-width: 35rem;
         font-weight: 500;
         font-size: 1.2rem;
@@ -21,7 +21,7 @@
     }
 }
 // 不显示页脚
-.footer-wrapper{
+.vp-footer-wrapper{
     display:none
 }
 
