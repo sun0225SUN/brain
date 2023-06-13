@@ -70,7 +70,6 @@ export default hopeTheme({
       demo: true,
       echarts: true,
       figure: true,
-      flowchart: true,
       gfm: true,
       imgLazyload: true,
       imgSize: true,

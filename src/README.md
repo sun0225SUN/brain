@@ -28,7 +28,7 @@ features:
 
   - title: 协作交流
     icon: comment
-    details: 海内存知己，天涯若比邻
+    details: 莫愁前路无知己，天下谁人不识君
     # link: https://theme-hope.vuejs.press/guide/feature/comment.html
 
 copyright: false

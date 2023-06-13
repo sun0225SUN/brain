@@ -20,6 +20,20 @@
         line-height: 1.3;
     }
 }
+
+.vp-feature{
+    padding: 0;
+}
+
+.vp-features{
+    margin: 1rem 0 0 0;
+}
+
+// 去除外边距
+.vp-actions{
+    margin: 0.8rem;
+}
+
 // 不显示页脚
 .vp-footer-wrapper{
     display:none

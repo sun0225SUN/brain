@@ -89,6 +89,13 @@ export const sideBar = sidebar({
       collapsible: true,
     },
     {
+      text: "Angular",
+      icon: "angular",
+      prefix: "html/",
+      children: "structure",
+      collapsible: true,
+    },
+    {
       text: "Node",
       icon: "nodeJS",
       prefix: "html/",
