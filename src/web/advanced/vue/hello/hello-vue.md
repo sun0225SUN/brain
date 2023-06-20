@@ -33,6 +33,35 @@ Vue (发音为 /vjuː/，类似 view) 是一款用于构建用户界面的**渐�
 
 ### 声明式
 
+::: vue-demo 666
+
+```vue
+<template>
+  <button @click="alert('666')">hello world</button>
+</template>
+```
+:::
+
+::: vue-demo 777
+
+```vue
+<template>
+  <button @click="handler">hello world</button>
+</template>
+
+<script>
+export default{
+  methods: {
+    handler() {
+      alert('777')
+    }
+  }
+}
+</script>
+```
+:::
+
+
 ### 组件化
 
 ### 编程模型
