@@ -54,8 +54,65 @@ export const sideBar = sidebar({
         {
           text: "Learn",
           icon: "hot",
-          prefix: "hello/",
-          children: "structure",
+          prefix: "learn/",
+          children: [
+            {
+              text: "基础",
+              icon: "discover",
+              prefix: "essential/",
+              children: "structure",
+              collapsible: true,
+            },
+            {
+              text: "深入组件",
+              icon: "discover",
+              prefix: "components/",
+              children: "structure",
+              collapsible: true,
+            },
+            {
+              text: "逻辑复用",
+              icon: "discover",
+              prefix: "reusability/",
+              children: "structure",
+              collapsible: true,
+            },
+            {
+              text: "内置组件",
+              icon: "discover",
+              prefix: "built-ins/",
+              children: "structure",
+              collapsible: true,
+            },
+            {
+              text: "应用规范化",
+              icon: "discover",
+              prefix: "scaling-up/",
+              children: "structure",
+              collapsible: true,
+            },
+            {
+              text: "最佳实践",
+              icon: "discover",
+              prefix: "best-practices/",
+              children: "structure",
+              collapsible: true,
+            },
+            {
+              text: "TypeScript",
+              icon: "discover",
+              prefix: "typescript/",
+              children: "structure",
+              collapsible: true,
+            },
+            {
+              text: "进阶主题",
+              icon: "discover",
+              prefix: "extras/",
+              children: "structure",
+              collapsible: true,
+            },
+          ],
           collapsible: true,
         },
         {
@@ -81,20 +138,20 @@ export const sideBar = sidebar({
         },
       ],
     },
-    {
-      text: "React",
-      icon: "react",
-      prefix: "html/",
-      children: "structure",
-      collapsible: true,
-    },
-    {
-      text: "Angular",
-      icon: "angular",
-      prefix: "html/",
-      children: "structure",
-      collapsible: true,
-    },
+    // {
+    //   text: "React",
+    //   icon: "react",
+    //   prefix: "html/",
+    //   children: "structure",
+    //   collapsible: true,
+    // },
+    // {
+    //   text: "Angular",
+    //   icon: "angular",
+    //   prefix: "html/",
+    //   children: "structure",
+    //   collapsible: true,
+    // },
     {
       text: "Node",
       icon: "nodeJS",
@@ -109,13 +166,13 @@ export const sideBar = sidebar({
       children: "structure",
       collapsible: true,
     },
-    {
-      text: "Next",
-      icon: "software",
-      prefix: "html/",
-      children: "structure",
-      collapsible: true,
-    },
+    // {
+    //   text: "Next",
+    //   icon: "software",
+    //   prefix: "html/",
+    //   children: "structure",
+    //   collapsible: true,
+    // },
     {
       text: "Electron",
       icon: "window",
@@ -133,54 +190,54 @@ export const sideBar = sidebar({
     {
       text: "数据可视化",
       icon: "eye",
-      prefix: "html/",
+      prefix: "data-vision/",
       children: "structure",
       collapsible: true,
     },
   ],
   "/cs/": [
-   {
+    {
       icon: "discover",
       text: "前言",
       prefix: "web/",
       children: "structure",
       collapsible: true,
-    }
+    },
   ],
   "/ai/": [
     {
-       icon: "discover",
-       text: "前言",
-       prefix: "web/",
-       children: "structure",
-       collapsible: true,
-     }
-   ],
-   "/en/": [
+      icon: "discover",
+      text: "前言",
+      prefix: "web/",
+      children: "structure",
+      collapsible: true,
+    },
+  ],
+  "/en/": [
     {
-       icon: "discover",
-       text: "前言",
-       prefix: "web/",
-       children: "structure",
-       collapsible: true,
-     }
-   ],
-   "/life/": [
+      icon: "discover",
+      text: "前言",
+      prefix: "web/",
+      children: "structure",
+      collapsible: true,
+    },
+  ],
+  "/life/": [
     {
-       icon: "discover",
-       text: "程序人生",
-       prefix: "coder/",
-       children: "structure",
-       collapsible: true,
-     },
-     {
+      icon: "discover",
+      text: "程序人生",
+      prefix: "coder/",
+      children: "structure",
+      collapsible: true,
+    },
+    {
       icon: "discover",
       text: "生存指南",
       prefix: "coder/",
       children: "structure",
       collapsible: true,
     },
-     {
+    {
       icon: "discover",
       text: "延寿指南",
       prefix: "coder/",
@@ -200,6 +257,6 @@ export const sideBar = sidebar({
       prefix: "coder/",
       children: "structure",
       collapsible: true,
-    }
-   ],
+    },
+  ],
 });
