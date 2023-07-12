@@ -5,7 +5,7 @@ export const sideBar = sidebar({
     {
       icon: "guide",
       text: "Foreword",
-      prefix: "front/",
+      prefix: "foreword/",
       children: "structure",
       collapsible: true,
     },

@@ -1,5 +1,5 @@
 ---
-title: 前端开发学习路线
+title: 前端学习路线
 icon: line
 order: 2
 ---
