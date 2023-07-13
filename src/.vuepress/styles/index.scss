@@ -1,43 +1,45 @@
 // place your custom styles here
 // 垂直布局
-.vp-hero-info{
+.vp-hero-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  .vp-hero-image {
+    margin: 2.25rem;
+  }
+  // 信息居中
+  .vp-hero-infos {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    // 信息居中
-    .vp-hero-infos{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-direction: column;
-    }
-    // 描述字体
-    .vp-description {
-        max-width: 35rem;
-        font-size: 1.2rem;
-    }
+  }
+  // 描述字体
+  .vp-description {
+    max-width: 50rem;
+    font-size: 1.3rem;
+  }
 }
 
 // 不显示页脚
-.vp-footer-wrapper{
-    display:none
+.vp-footer-wrapper {
+  display: none;
 }
 
 // 图片居中&圆角
 .theme-hope-content img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 3%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3%;
 }
 
 // 文字缩进
-.theme-hope-content>p {
-    text-indent: 2em;
+.theme-hope-content > p {
+  text-indent: 2em;
 }
 
-
-.vp-navbar .vp-nav-links{
-    font-size: 1rem;
+.vp-navbar .vp-nav-links {
+  font-size: 1rem;
 }

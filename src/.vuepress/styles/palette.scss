@@ -6,20 +6,18 @@ $font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei";
 // .vuepress/styles/palette.scss
 $bg-color: (
   light: #ffffff,
-  dark: #000000,
+  dark: #0d1117,
 );
-
 
 $text-color: (
   light: #363636,
   dark: #dedede,
 );
 
-
-#toc .toc-link{
-    color: var(--text-color);
+#toc .toc-link {
+  color: var(--text-color);
 }
 
-.vp-navbar .nav-item > .nav-link{
-    color: var(--text-color);
+.vp-navbar .nav-item > .nav-link {
+  color: var(--text-color);
 }
