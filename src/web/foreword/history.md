@@ -24,7 +24,7 @@ section 2016～Now
 
 ## 一个改变世界的idea
 
-![](https://files.sunguoqi.com/brain-img/202305210041168.jpg "Berners-Lee 伯纳斯·李" =400x)
+![](https://files.sunguoqi.com/brain-images/202307141657242.webp "Berners-Lee 伯纳斯·李" =400x)
 
 1980年6月至12月间，伯纳斯·李（Berners-Lee）在欧洲核子研究组织（CERN）担任独立承包人，在那段时间里，他提出了一个构想:
 
