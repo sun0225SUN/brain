@@ -4,25 +4,9 @@ icon: branch
 order: 1
 ---
 
-```timeline
-title 前端技术发展简史
-section 1991
-    盘古开天 : Machinery, Water power, Steam <br>power
-section 1995～2005
-    石器时代 : Internet, Robotics, Internet of Things
-section 1994～2012
-    青铜时代 : Artificial intelligence, Big data,3D printing
-section 2006～2012
-    铁器时代 : Internet, Robotics, Internet of Things
-section 2012～2016
-    蒸汽时代 : Internet, Robotics, Internet of Things
-section 2016～Now
-    三足鼎立 : Internet, Robotics, Internet of Things
-```
+![](https://files.sunguoqi.com/brain-images/202307141657242.webp "Berners-Lee 伯纳斯·李" =400x)
 
 ## 一个改变世界的 idea
-
-![](https://files.sunguoqi.com/brain-images/202307141657242.webp "Berners-Lee 伯纳斯·李" =400x)
 
 1980 年 6 月至 12 月间，伯纳斯·李（Berners-Lee）在欧洲核子研究组织（CERN）担任独立承包人，在那段时间里，他提出了一个构想:
 
