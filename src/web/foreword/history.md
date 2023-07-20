@@ -20,25 +20,23 @@ section 2016～Now
     三足鼎立 : Internet, Robotics, Internet of Things
 ```
 
-
-
-## 一个改变世界的idea
+## 一个改变世界的 idea
 
 ![](https://files.sunguoqi.com/brain-images/202307141657242.webp "Berners-Lee 伯纳斯·李" =400x)
 
-1980年6月至12月间，伯纳斯·李（Berners-Lee）在欧洲核子研究组织（CERN）担任独立承包人，在那段时间里，他提出了一个构想:
+1980 年 6 月至 12 月间，伯纳斯·李（Berners-Lee）在欧洲核子研究组织（CERN）担任独立承包人，在那段时间里，他提出了一个构想:
 
 **创建一个基于超文本概念的系统，以方便研究人员分享和更新信息。**
 
-1980年，伯纳斯·李离开CERN后，转而任职于约翰·普尔图形计算机系统有限公司。在这间公司里，他获得了计算机网络的知识。
+1980 年，伯纳斯·李离开 CERN 后，转而任职于约翰·普尔图形计算机系统有限公司。在这间公司里，他获得了计算机网络的知识。
 
-1984年，伯纳斯·李以研究员的身份重返CERN。在1989年的时候，他看到了将超文本系统与互联网结合在一起的机会。
+1984 年，伯纳斯·李以研究员的身份重返 CERN。在 1989 年的时候，他看到了将超文本系统与互联网结合在一起的机会。
 
-1989年3月，伯纳斯·李提交了一份标题为[Information Management: A Proposal](https://cds.cern.ch/record/369245/files/dd-89-001.pdf)的提案。在这份提案中，他勾勒出了 Web 的未来。
+1989 年 3 月，伯纳斯·李提交了一份标题为[Information Management: A Proposal](https://cds.cern.ch/record/369245/files/dd-89-001.pdf)的提案。在这份提案中，他勾勒出了 Web 的未来。
 
 ## 世界上第一个网站
 
-1991年8月6日，伯纳斯·李发布了世界上第一个网站，该网站用来展示网络是什么，并解释了它的目的。
+1991 年 8 月 6 日，伯纳斯·李发布了世界上第一个网站，该网站用来展示网络是什么，并解释了它的目的。
 
 世界上第一个网站的地址是: [http://info.cern.ch/hypertext/WWW/TheProject.html](http://info.cern.ch/hypertext/WWW/TheProject.html)
 
@@ -47,11 +45,12 @@ section 2016～Now
         allowfullscreen sandbox>
 </iframe>
 
-1993年4月，伯纳斯·李宣布万维网是完全免费的，不申请专利权，不征收专利费。因此，人人都能轻易用上万维网。
+1993 年 4 月，伯纳斯·李宣布万维网是完全免费的，不申请专利权，不征收专利费。因此，人人都能轻易用上万维网。
 
-1994年10月，伯纳斯·李在麻省理工学院计算机科学实验室创办了万维网联盟（World Wide Web Consortium），简称 W3C。
+1994 年 10 月，伯纳斯·李在麻省理工学院计算机科学实验室创办了万维网联盟（World Wide Web Consortium），简称 W3C。
 
-到了1994年底，全球网站数量仍然相对稀少，但是很多著名网站已经相当活跃，这些网站已经预示或者启发了当今最流行的服务。
+到了 1994 年底，全球网站数量仍然相对稀少，但是很多著名网站已经相当活跃，这些网站已经预示或者启发了当今最流行的服务。
+
 ## 一道经典的面试题
 
 **当键入网址到网页显示，其间发生了什么？**
@@ -66,7 +65,7 @@ https://juejin.cn/post/6844904079202713608
 
 https://xiaolincoding.com/network/1_base/what_happen_url.html
 
-## 盘古开天（1991～1994）
+## 盘古开天（1991 ～ 1994）
 
 【 web 1.0】
 
@@ -74,7 +73,7 @@ https://xiaolincoding.com/network/1_base/what_happen_url.html
 
 好了，我们已经了解了浏览器的历史，也稍微了解了。。。
 
-那请让我们重新聚焦于技术，最原始的Web开发需要哪些东西
+那请让我们重新聚焦于技术，最原始的 Web 开发需要哪些东西
 
 互联网发展的早期，前后端开发是一体的，前端代码是后端代码的一部分。
 
@@ -84,76 +83,77 @@ https://xiaolincoding.com/network/1_base/what_happen_url.html
 
 计算机网络+万维网+浏览器+JavaScript
 
-## 石器时代（1995～2005）
+## 石器时代（1995 ～ 2005）
 
 表格布局的时代，Dreamweweer FirWorks Flash
 
-刚开始接触前端的时候，我同样思考过这个问题，我们看到的网页，不可以像PS一样制作吗？
+刚开始接触前端的时候，我同样思考过这个问题，我们看到的网页，不可以像 PS 一样制作吗？
 
 这个低代码还有些许不同
 
-著名的设计公司Adobe走的便是这条路
+著名的设计公司 Adobe 走的便是这条路
+
 ### 是一条路，但不好走
 
-### Adobe Flash Player已不再受支持
+### Adobe Flash Player 已不再受支持
 
 ### 低代码让小白快速生成自己的产品
 
-## 青铜时代（1994～2012）
+## 青铜时代（1994 ～ 2012）
 
 ## 三次浏览器大战
 
 浏览器是用户接入万维网的入口，有着巨大的商业价值。
 
-到1992年底，市场上出现了一些其他的浏览器，包括Cello、Arena、Lynx、tkWWW和Mosaic 。其中最具影响力的是Mosaic。
+到 1992 年底，市场上出现了一些其他的浏览器，包括 Cello、Arena、Lynx、tkWWW 和 Mosaic 。其中最具影响力的是 Mosaic。
 
-Mosaic的开发者之一马克·安德森，于1994年成立了网景通信公司（Netscape Communications Corporation）
+Mosaic 的开发者之一马克·安德森，于 1994 年成立了网景通信公司（Netscape Communications Corporation）
 
-Netscape改进了Mosaic的实用性及稳定性，同时在网络上提供免费试用版，很快便统领浏览器的市场。
+Netscape 改进了 Mosaic 的实用性及稳定性，同时在网络上提供免费试用版，很快便统领浏览器的市场。
 
 ![](https://pic3.zhimg.com/v2-ed02785797334fa618a9d8abbe0e09aa_r.jpg)
 
 ### Netscape VS IE
 
-1995年中期，人们开始注意万维网，而当时的市场及网页浏览标准均以Netscape主导。微软在获取Mosaic的授权后，推出了Internet Explorer，第一次浏览器大战正式拉开序幕。
+1995 年中期，人们开始注意万维网，而当时的市场及网页浏览标准均以 Netscape 主导。微软在获取 Mosaic 的授权后，推出了 Internet Explorer，第一次浏览器大战正式拉开序幕。
 
 微软在浏览器大战中拥有两大优势：
 
-第一是财力雄厚，Netscape 浏览器虽曾一度达90%以上占有率，但公司的规模相对较小，总收入也不及微软，产品方面也仅有浏览器及相关产品。
+第一是财力雄厚，Netscape 浏览器虽曾一度达 90%以上占有率，但公司的规模相对较小，总收入也不及微软，产品方面也仅有浏览器及相关产品。
 
-微软的另一个优势，在于其Windows垄断了操作系统市场。纵使早期Internet Explorer的评价比Netscape差，微软把Internet Explorer与Windows捆绑销售，仍可以增加其占用率。
+微软的另一个优势，在于其 Windows 垄断了操作系统市场。纵使早期 Internet Explorer 的评价比 Netscape 差，微软把 Internet Explorer 与 Windows 捆绑销售，仍可以增加其占用率。
 
-另外，微软把Internet Explorer变成免费，开发资金从Windows的庞大收益中拨出，当产品功能开发至与Netscape同等程度时，用户便不再下载Netscape使用，而改用Internet Explorer。
+另外，微软把 Internet Explorer 变成免费，开发资金从 Windows 的庞大收益中拨出，当产品功能开发至与 Netscape 同等程度时，用户便不再下载 Netscape 使用，而改用 Internet Explorer。
 
-> 由于Internet Explorer包含“Internet”一词，对于一些初识互联网的人，很容易先入为主地以为Internet Explorer就是互联网，互联网就只有万维网，并会以为Internet Explorer就是唯一选择，而忽略了其他浏览器的存在。
+> 由于 Internet Explorer 包含“Internet”一词，对于一些初识互联网的人，很容易先入为主地以为 Internet Explorer 就是互联网，互联网就只有万维网，并会以为 Internet Explorer 就是唯一选择，而忽略了其他浏览器的存在。
 
 <img width="400px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Browser_Wars_%28zh-tw%29.svg/2560px-Browser_Wars_%28zh-tw%29.svg.png" />
 
 ### Firefox VS IE
 
-1998年，Netscape以开放源代码的授权形式，把Communicator源代码发布。
+1998 年，Netscape 以开放源代码的授权形式，把 Communicator 源代码发布。
 
-2002年，Mozilla推出1.0版，并迅速在开源社群中得以普及。同时又出现多款派生产品，包括轻量跨平台浏览器，名为Firefox，它于2004年推出1.0版。
+2002 年，Mozilla 推出 1.0 版，并迅速在开源社群中得以普及。同时又出现多款派生产品，包括轻量跨平台浏览器，名为 Firefox，它于 2004 年推出 1.0 版。
 
-受到Firefox的竞争，至2005年最后一季，IE的市场占有率跌至85%左右。蠕虫病毒、间谍软件等透过IE产品漏洞，并在网络传播，是使IE用户改用Firefox的主要因素。
+受到 Firefox 的竞争，至 2005 年最后一季，IE 的市场占有率跌至 85%左右。蠕虫病毒、间谍软件等透过 IE 产品漏洞，并在网络传播，是使 IE 用户改用 Firefox 的主要因素。
 
-Firefox 以相对安全的浏览体验，让其在技术上领先IE浏览器，但相对“复杂”的操作及对“IE网页标准支持不完善”使大部分普通用户望之怯步，其市场占有率一直稳定在16%－18%之间。
+Firefox 以相对安全的浏览体验，让其在技术上领先 IE 浏览器，但相对“复杂”的操作及对“IE 网页标准支持不完善”使大部分普通用户望之怯步，其市场占有率一直稳定在 16%－18%之间。
 
 [插入火狐浏览器截图]
 
 ### IE VS Google Chrome
 
-2008年，Google推出Google Chrome浏览器，同时推出对应开源先行版本Chromium，自此Internet Explorer开始衰落。
+2008 年，Google 推出 Google Chrome 浏览器，同时推出对应开源先行版本 Chromium，自此 Internet Explorer 开始衰落。
 
-2013年，Opera放弃自有的Presto渲染引擎，改用Chromium系的Blink渲染引擎。
+2013 年，Opera 放弃自有的 Presto 渲染引擎，改用 Chromium 系的 Blink 渲染引擎。
 
-2015年，微软在Windows 10中内置了新开发的Microsoft Edge浏览器并逐步放弃Internet Explorer
+2015 年，微软在 Windows 10 中内置了新开发的 Microsoft Edge 浏览器并逐步放弃 Internet Explorer
 
-2020年1月，Microsoft Edge也开始改用基于Chromium开发。
+2020 年 1 月，Microsoft Edge 也开始改用基于 Chromium 开发。
 
 [插入谷歌浏览器截图]
 
-2022.6.15日，IE正式终止服务。
+2022.6.15 日，IE 正式终止服务。
 
 https://img2.tapimg.com/bbcode/images/3158918df7af4cba8a79c05584021936.jpg
 
@@ -161,7 +161,7 @@ https://img2.tapimg.com/bbcode/images/3158918df7af4cba8a79c05584021936.jpg
 
 [插入占比图]
 
-## 铁器时代（2006～2012）
+## 铁器时代（2006 ～ 2012）
 
 ### 前端工程师的角色
 
@@ -189,12 +189,12 @@ https://img2.tapimg.com/bbcode/images/3158918df7af4cba8a79c05584021936.jpg
 
 Ajax 技术诞生，改变了一切。
 
-- 2004年：Gmail
-- 2005年：Google 地图
+- 2004 年：Gmail
+- 2005 年：Google 地图
 
 前端不再是后端的模板，可以独立得到各种数据。
 
-Jquery的诞生
+Jquery 的诞生
 
 ### Web 2.0
 
@@ -207,13 +207,11 @@ Ajax 技术促成了 Web 2.0 的诞生。
 
 从那时起，前端变得复杂了，对前端工程师的要求越来越高。
 
-
-## 蒸汽时代（2012～2016）
+## 蒸汽时代（2012 ～ 2016）
 
 Node.js
 
 移动端
-
 
 ### Node 的意义
 
@@ -221,10 +219,9 @@ Node.js
 - JavaScript 成为唯一的浏览器和服务器都支持的语言
 - 前端工程师可以编写后端程序了
 
-
 ### Node
 
-2009年，Node 项目诞生，它是服务器上的 JavaScript 运行环境。
+2009 年，Node 项目诞生，它是服务器上的 JavaScript 运行环境。
 
 Node = JavaScript + 操作系统 API
 
@@ -235,7 +232,7 @@ Node = JavaScript + 操作系统 API
 - 引入持续集成等软件工程的标准流程
 - 开发完成后，编译成浏览器可以运行的脚本，放上 CDN
 
-## 三足鼎立（2016～Now）
+## 三足鼎立（2016 ～ Now）
 
 ### 后端 MVC 的开发模式
 
@@ -247,14 +244,13 @@ Node = JavaScript + 操作系统 API
 
 前端只是后端 MVC 的 V。
 
-
 ### 前端 MVC 框架
 
 前端通过 Ajax 得到数据，因此也有了处理数据的需求。
 
 前端代码变得也需要保存数据、处理数据、生成视图，这导致了前端 MVC 框架的诞生。
 
-- 2010年，Backbone.js
+- 2010 年，Backbone.js
 
 <!-- ![](./images/backbone.png) -->
 
@@ -277,14 +273,14 @@ Backbone 只有 M 和 V，没有 C。因为，前端 Controller 与后端不同�
 所以，前端 Controller 相对比较简单。Backbone 没有 C，只用事件来处理 UI 逻辑。
 
 ```javascript
-  var AppView = Backbone.View.extend({
-    // ...
-    events: {
-      "keypress #new-todo":  "createOnEnter",
-      "click #clear-completed": "clearCompleted",
-      "click #toggle-all": "toggleAllComplete"
-    },
-  });
+var AppView = Backbone.View.extend({
+  // ...
+  events: {
+    "keypress #new-todo": "createOnEnter",
+    "click #clear-completed": "clearCompleted",
+    "click #toggle-all": "toggleAllComplete",
+  },
+});
 ```
 
 ### Router
@@ -298,9 +294,9 @@ Backbone 只有 M 和 V，没有 C。因为，前端 Controller 与后端不同�
 ```javascript
 App.Router = Backbone.Router.extend({
   routes: {
-    '': 'index',
-    'show': 'show'
-    },
+    "": "index",
+    show: "show",
+  },
   index: function () {
     $(document.body).append("调用了 Index 路由");
   },
@@ -328,7 +324,6 @@ App.Router = Backbone.Router.extend({
 
 <!-- ![](./images/mvvm.png) -->
 
-
 ### SPA
 
 前端可以做到：
@@ -341,8 +336,7 @@ App.Router = Backbone.Router.extend({
 
 > SPA = Single-page application
 
-2010年后，前端工程师从开发页面，变成了开发“前端应用”（跑在浏览器里面的应用程序）。
-
+2010 年后，前端工程师从开发页面，变成了开发“前端应用”（跑在浏览器里面的应用程序）。
 
 传统的架构
 
@@ -400,7 +394,7 @@ HTML 代码
 
 ```html
 <div id="journal">
-  <input type="text" v-model="message">
+  <input type="text" v-model="message" />
   <div>{{message}}</div>
 </div>
 ```
@@ -409,10 +403,10 @@ JS 代码
 
 ```javascript
 var journal = new Vue({
-  el: '#journal',
+  el: "#journal",
   data: {
-    message: 'Your first entry'
-  }
+    message: "Your first entry",
+  },
 });
 ```
 
@@ -433,7 +427,7 @@ var journal = new Vue({
 
 后端接口一般是 REST 形式，前后端的通信协议一般是 HTTP。
 
-## 大前端时代（2017～Now）
+## 大前端时代（2017 ～ Now）
 
 ### 微信小程序
 
@@ -448,12 +442,11 @@ var journal = new Vue({
 - 一个人负责开发前端和后端
 - 从数据库到 UI 的所有开发
 
-## AI 驱动开发（2022～Now）
+## AI 驱动开发（2022 ～ Now）
 
 <!-- ## 思维导图
 
   <iframe :src="$withBase('/markmap/dist/markmap.html')" width="100%" height="400" frameborder="0" scrolling="No" leftmargin="0" topmargin="0" style="background-color: #fff;" ></iframe> -->
-
 
 ## 参考资料
 
@@ -471,9 +464,7 @@ var journal = new Vue({
 
 [CSDN-前端开发 20 年变迁史](https://blog.csdn.net/csdnnews/article/details/90745990)
 
-[B站-硬核唠嗑：前端技术演化史](https://www.bilibili.com/video/BV19t4y1A7CP)
-
-
+[B 站-硬核唠嗑：前端技术演化史](https://www.bilibili.com/video/BV19t4y1A7CP)
 
 https://juejin.cn/post/7116326329313656869
 
@@ -488,7 +479,6 @@ https://segmentfault.com/a/1190000020281750
 https://segmentfault.com/a/1190000037539094
 
 https://www.bilibili.com/video/BV1cE41137tS
-
 
 https://thehistoryoftheweb.com/
 
