@@ -1,0 +1,96 @@
+import { arraySidebar } from "vuepress-theme-hope";
+
+export const dv = arraySidebar([
+  {
+    text: "Basic",
+    icon: "discover",
+    prefix: "basic/",
+    children: "structure",
+    collapsible: true,
+  },
+  {
+    text: "Three",
+    icon: "operate",
+    prefix: "three/",
+    children: [
+      {
+        text: "前言",
+        icon: "discover",
+        prefix: "00/",
+        children: "structure",
+        collapsible: true,
+      },
+      {
+        text: "概述",
+        icon: "discover",
+        prefix: "01/",
+        children: "structure",
+        collapsible: true,
+      },
+      {
+        text: "照相机",
+        icon: "discover",
+        prefix: "reusability/",
+        children: "structure",
+        collapsible: true,
+      },
+      {
+        text: "几何形状",
+        icon: "discover",
+        prefix: "02/",
+        children: "structure",
+        collapsible: true,
+      },
+      {
+        text: "材质",
+        icon: "discover",
+        prefix: "03/",
+        children: "structure",
+        collapsible: true,
+      },
+      {
+        text: "网格",
+        icon: "discover",
+        prefix: "04/",
+        children: "structure",
+        collapsible: true,
+      },
+      {
+        text: "动画",
+        icon: "discover",
+        prefix: "05/",
+        children: "structure",
+        collapsible: true,
+      },
+      {
+        text: "外部模型",
+        icon: "discover",
+        prefix: "06/",
+        children: "structure",
+        collapsible: true,
+      },
+      {
+        text: "光与影",
+        icon: "discover",
+        prefix: "07/",
+        children: "structure",
+        collapsible: true,
+      },
+      {
+        text: "着色器",
+        icon: "discover",
+        prefix: "08/",
+        children: "structure",
+        collapsible: true,
+      },
+    ],
+    collapsible: true,
+  },
+  {
+    text: "Cesium",
+    icon: "ask",
+    prefix: "hello/",
+    children: "structure",
+    collapsible: true,
+  },
+]);
