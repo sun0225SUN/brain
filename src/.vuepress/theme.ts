@@ -4,7 +4,6 @@ import { sideBar } from "./sidebar/index.js";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 
 export default hopeTheme({
-
   hostname: "https://brain.sunguoqi.com",
 
   author: {
@@ -35,27 +34,26 @@ export default hopeTheme({
       metaLocales: {
         editLink: "Edit this page on GitHub",
       },
-    }
+    },
   },
 
   encrypt: {
     config: {
-      "/demo/encrypt.html": ["1234"]
+      "/demo/encrypt.html": ["1234"],
     },
   },
 
   fullscreen: true,
 
   plugins: {
-
     comment: {
       // @ ts-expect-error: You should generate and use your own comment service
       provider: "Giscus",
-      repo:"sun0225SUN/Brain",
-      repoId:"R_kgDOJNZRqA",
-      category:"General",
-      categoryId:"DIC_kwDOJNZRqM4CWd6B",
-      lazyLoading: true,
+      repo: "sun0225SUN/Brain",
+      repoId: "R_kgDOJNZRqA",
+      category: "General",
+      categoryId: "DIC_kwDOJNZRqM4CWd6B",
+      lazyLoading: false,
       reactionsEnabled: true,
       darkTheme: "dark",
     },
