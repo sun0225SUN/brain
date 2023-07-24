@@ -53,6 +53,7 @@ export default hopeTheme({
       repoId: "R_kgDOJNZRqA",
       category: "General",
       categoryId: "DIC_kwDOJNZRqM4CWd6B",
+      mapping: "title",
       lazyLoading: false,
       reactionsEnabled: true,
       darkTheme: "dark",
