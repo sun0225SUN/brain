@@ -2,7 +2,7 @@ import { arraySidebar } from "vuepress-theme-hope";
 
 export const web = arraySidebar([
   {
-    icon: "guide",
+    icon: "zhinanzhen",
     text: "Foreword",
     prefix: "foreword/",
     children: "structure",

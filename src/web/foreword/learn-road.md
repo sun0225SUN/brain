@@ -1,6 +1,6 @@
 ---
 title: 前端学习路线
-icon: line
+icon: post
 order: 3
 ---
 

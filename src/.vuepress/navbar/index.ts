@@ -18,7 +18,7 @@ export const navBar = navbar([
   },
   {
     text: "人工智能",
-    icon: "robot",
+    icon: "ai",
     link: "/ai/basic/test.md",
   },
   {
