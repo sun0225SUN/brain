@@ -10,41 +10,31 @@ export default hopeTheme({
     url: "https://blog.sunguoqi.com",
   },
 
-  iconAssets: ["//at.alicdn.com/t/c/font_4184658_p9x77zpu1hi.css"],
-
   logo: "/avatar.png",
 
   repo: "sun0225SUN/Brain",
 
   docsDir: "/src",
 
+  iconAssets: ["//at.alicdn.com/t/c/font_4184658_1yciht12259.css"],
+
   locales: {
     "/": {
-      // navbar
       navbar: navBar,
-
-      // sidebar
       sidebar: sideBar,
-
-      footer: "MIT Licensed | © sun0225SUN",
-
+      footer: "GPL Licensed | © sun0225SUN",
       displayFooter: true,
-
       metaLocales: {
         editLink: "Edit this page on GitHub",
       },
     },
   },
 
-  encrypt: {
-    config: {
-      "/demo/encrypt.html": ["1234"],
-    },
-  },
-
-  fullscreen: true,
+  // 全屏按钮
+  fullscreen: false,
 
   plugins: {
+    // 评论设置
     comment: {
       // @ ts-expect-error: You should generate and use your own comment service
       provider: "Giscus",
@@ -59,6 +49,7 @@ export default hopeTheme({
     },
 
     // all features are enabled for demo, only preserve features you need here
+    // Markdown 增强
     mdEnhance: {
       card: true,
       align: true,
@@ -159,10 +150,12 @@ export default hopeTheme({
       },
     },
 
+    // RSS
     feed: {
       rss: true,
     },
 
+    // 内置组件
     components: {
       // 你想使用的组件
       components: [

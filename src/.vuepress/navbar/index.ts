@@ -14,7 +14,7 @@ export const navBar = navbar([
   {
     text: "数据可视化",
     icon: "dv",
-    link: "/dv/basic/00",
+    link: "/dv/basic/data-visualization-engineer",
   },
   {
     text: "人工智能",
@@ -29,6 +29,11 @@ export const navBar = navbar([
   {
     text: "程序人生",
     icon: "coder",
-    link: "/life/coder/leijun.md",
+    link: "/life/coder/lei-jun",
+  },
+  {
+    text: "关于我",
+    icon: "about",
+    link: "/slides/about",
   },
 ]);
