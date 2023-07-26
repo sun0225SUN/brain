@@ -6,7 +6,7 @@ export const web = arraySidebar([
     text: "Foreword",
     prefix: "foreword/",
     children: "structure",
-    collapsible: false,
+    collapsible: true,
   },
   {
     text: "HTML",

@@ -2,6 +2,13 @@ import { arraySidebar } from "vuepress-theme-hope";
 
 export const dv = arraySidebar([
   {
+    text: "Foreword",
+    icon: "guide",
+    prefix: "foreword/",
+    children: "structure",
+    collapsible: true,
+  },
+  {
     text: "Basic",
     icon: "discover",
     prefix: "basic/",
@@ -89,8 +96,80 @@ export const dv = arraySidebar([
   {
     text: "Cesium",
     icon: "ask",
-    prefix: "hello/",
-    children: "structure",
+    prefix: "cesium/",
+    children: [
+      {
+        text: "前言",
+        icon: "discover",
+        prefix: "00/",
+        children: "structure",
+        collapsible: true,
+      },
+      {
+        text: "概述",
+        icon: "discover",
+        prefix: "01/",
+        children: "structure",
+        collapsible: true,
+      },
+      {
+        text: "快速上手",
+        icon: "discover",
+        prefix: "reusability/",
+        children: "structure",
+        collapsible: true,
+      },
+      {
+        text: "数据加载",
+        icon: "discover",
+        prefix: "02/",
+        children: "structure",
+        collapsible: true,
+      },
+      {
+        text: "事件处理",
+        icon: "discover",
+        prefix: "03/",
+        children: "structure",
+        collapsible: true,
+      },
+      {
+        text: "图形绘制",
+        icon: "discover",
+        prefix: "04/",
+        children: "structure",
+        collapsible: true,
+      },
+      {
+        text: "三维模型",
+        icon: "discover",
+        prefix: "05/",
+        children: "structure",
+        collapsible: true,
+      },
+      {
+        text: "材质特效",
+        icon: "discover",
+        prefix: "06/",
+        children: "structure",
+        collapsible: true,
+      },
+      {
+        text: "工具应用",
+        icon: "discover",
+        prefix: "07/",
+        children: "structure",
+        collapsible: true,
+      },
+      {
+        text: "着色器",
+        icon: "discover",
+        prefix: "08/",
+        children: "structure",
+        collapsible: true,
+      },
+    ],
+    // children: "structure",
     collapsible: true,
   },
 ]);
