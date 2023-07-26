@@ -1,7 +1,6 @@
-import { hopeTheme } from "vuepress-theme-hope";
 import { navBar } from "./navbar/index.js";
 import { sideBar } from "./sidebar/index.js";
-import { searchProPlugin } from "vuepress-plugin-search-pro";
+import { hopeTheme } from "vuepress-theme-hope";
 
 export default hopeTheme({
   hostname: "https://brain.sunguoqi.com",
