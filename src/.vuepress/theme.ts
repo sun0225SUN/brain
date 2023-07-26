@@ -11,7 +11,7 @@ export default hopeTheme({
     url: "https://blog.sunguoqi.com",
   },
 
-  iconAssets: ["//at.alicdn.com/t/c/font_4184658_o4k5wsidsvn.css"],
+  iconAssets: ["//at.alicdn.com/t/c/font_4184658_qxwfgqrofs.css"],
 
   logo: "/avatar.png",
 
