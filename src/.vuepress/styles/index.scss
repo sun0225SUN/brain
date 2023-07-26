@@ -1,4 +1,9 @@
 // place your custom styles here
+
+.vp-hero-info-wrapper {
+  height: 68vh;
+}
+
 // 垂直布局
 .vp-hero-info {
   display: flex;
@@ -8,6 +13,7 @@
   .vp-hero-image {
     margin: 2.25rem;
   }
+
   // 信息居中
   .vp-hero-infos {
     display: flex;
