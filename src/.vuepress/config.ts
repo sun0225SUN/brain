@@ -1,9 +1,12 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
+import { hopeTheme } from "vuepress-theme-hope";
 
 export default defineUserConfig({
+  // 基础路径
   base: "/",
+  // 网站信息
   locales: {
     "/": {
       lang: "zh-CN",
@@ -11,12 +14,9 @@ export default defineUserConfig({
       description: "热爱可抵漫长岁月！",
     },
   },
-
+  // 主题配置
   theme,
-
-  // Enable it with pwa
-  shouldPrefetch: false,
-
+  // 插件配置
   plugins: [
     searchProPlugin({
       indexContent: true,
@@ -32,4 +32,6 @@ export default defineUserConfig({
       ],
     }),
   ],
+  // Enable it with pwa
+  shouldPrefetch: false,
 });
