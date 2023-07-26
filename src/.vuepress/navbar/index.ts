@@ -32,7 +32,7 @@ export const navBar = navbar([
     link: "/life/coder/lei-jun",
   },
   {
-    text: "关于我",
+    text: "关于",
     icon: "about",
     link: "/slides/about",
   },
