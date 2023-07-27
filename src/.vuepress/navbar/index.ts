@@ -9,12 +9,12 @@ export const navBar = navbar([
   {
     text: "Web开发",
     icon: "web",
-    link: "/web/foreword/history",
+    link: "/web/guide/history",
   },
   {
     text: "数据可视化",
     icon: "dv",
-    link: "/dv/basic/data-visualization-engineer",
+    link: "/dv/basic/foreword/data-visualization-engineer",
   },
   {
     text: "人工智能",

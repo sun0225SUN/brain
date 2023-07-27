@@ -16,7 +16,7 @@ export default hopeTheme({
 
   docsDir: "/src",
 
-  iconAssets: ["//at.alicdn.com/t/c/font_4184658_1yciht12259.css"],
+  iconAssets: ["//at.alicdn.com/t/c/font_4184658_af55n6r9uzj.css"],
 
   locales: {
     "/": {

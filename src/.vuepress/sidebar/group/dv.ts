@@ -3,21 +3,72 @@ import { arraySidebar } from "vuepress-theme-hope";
 export const dv = arraySidebar([
   {
     text: "Foreword",
-    icon: "guide",
+    icon: "hi",
     prefix: "foreword/",
     children: "structure",
     collapsible: true,
   },
   {
     text: "Basic",
-    icon: "discover",
+    icon: "jichu",
     prefix: "basic/",
-    children: "structure",
+    children: [
+      {
+        text: "前言",
+        icon: "zhinanzhen",
+        prefix: "foreword/",
+        children: "structure",
+        collapsible: true,
+      },
+      {
+        text: "图形基础",
+        icon: "web",
+        prefix: "graphics_basics/",
+        children: "structure",
+        collapsible: true,
+      },
+      {
+        text: "数学基础",
+        icon: "shuxue",
+        prefix: "math_basics/",
+        children: "structure",
+        collapsible: true,
+      },
+      {
+        text: "视觉基础",
+        icon: "tuxing",
+        prefix: "visual_basics/",
+        children: "structure",
+        collapsible: true,
+      },
+      {
+        text: "视觉高级",
+        icon: "sanwei",
+        prefix: "visual_advanced/",
+        children: "structure",
+        collapsible: true,
+      },
+      {
+        text: "性能优化",
+        icon: "xingneng",
+        prefix: "performance/",
+        children: "structure",
+        collapsible: true,
+      },
+      {
+        text: "数据处理",
+        icon: "shuju",
+        prefix: "data/",
+        children: "structure",
+        collapsible: true,
+      },
+    ],
+    // children: "structure",
     collapsible: true,
   },
   {
     text: "Three",
-    icon: "operate",
+    icon: "three",
     prefix: "three/",
     children: [
       {
@@ -95,7 +146,7 @@ export const dv = arraySidebar([
   },
   {
     text: "Cesium",
-    icon: "ask",
+    icon: "cesium",
     prefix: "cesium/",
     children: [
       {

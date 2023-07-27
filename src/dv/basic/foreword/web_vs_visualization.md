@@ -1,5 +1,5 @@
 ---
 title: Web前端与可视化
-icon: note
+icon: post
 order: 2
 ---
