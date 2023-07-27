@@ -16,17 +16,40 @@ export default hopeTheme({
 
   docsDir: "/src",
 
-  iconAssets: ["//at.alicdn.com/t/c/font_4184658_af55n6r9uzj.css"],
+  iconAssets: ["//at.alicdn.com/t/c/font_4184658_me2bhw0pj7p.css"],
 
   locales: {
     "/": {
       navbar: navBar,
       sidebar: sideBar,
       footer: "GPL Licensed | © sun0225SUN",
-      displayFooter: true,
+      displayFooter: false,
+      blog: {
+        description: "路虽远行则将至，事虽难做则必成！",
+        intro: "https://blog.sunguoqi.com/about",
+      },
+      blogLocales: {
+        tutorial: "Tutorial",
+      },
       metaLocales: {
         editLink: "Edit this page on GitHub",
       },
+    },
+  },
+
+  blog: {
+    // 时间线标题
+    timeline: "好好学习，天天向上",
+    // 社交媒体
+    medias: {
+      Twitter: "https://twitter.com/sun0225SUN",
+      Zhihu: "https://www.zhihu.com/people/sunguoqi",
+      BiliBili: "https://space.bilibili.com/448488855/",
+      GitHub: "https://github.com/sun0225UN",
+      Gitee: "https://gitee.com/sun0225SUN",
+      Gmail: "mailto:sun412926@gmail.com",
+      Youtube: "https://www.youtube.com/@sun0225SUN",
+      Wechat: "https://box.sunguoqi.com/weixin_mp/",
     },
   },
 
@@ -34,6 +57,8 @@ export default hopeTheme({
   fullscreen: false,
 
   plugins: {
+    // 博客设置
+    blog: true,
     // 评论设置
     comment: {
       // @ ts-expect-error: You should generate and use your own comment service

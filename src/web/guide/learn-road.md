@@ -2,6 +2,15 @@
 title: 前端学习路线
 icon: luxian
 order: 3
+author: 小孙同学
+date: 2023-07-26
+category:
+  - 前端开发
+tag:
+  - 指南
+  - 路线图
+sticky: false
+star: false
 ---
 
 ## 🚧 正在施工中。。。

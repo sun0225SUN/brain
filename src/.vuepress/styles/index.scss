@@ -27,11 +27,6 @@
   }
 }
 
-// 不显示页脚
-.vp-footer-wrapper {
-  display: none;
-}
-
 // 图片居中&圆角
 .theme-hope-content img {
   display: block;
@@ -47,4 +42,8 @@
 
 .vp-navbar .vp-nav-links {
   font-size: 1rem;
+}
+
+.blog-page-wrapper {
+  padding: 2rem;
 }

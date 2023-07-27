@@ -31,4 +31,9 @@ export const navBar = navbar([
     icon: "coder",
     link: "/life/coder/lei-jun",
   },
+  {
+    text: "更新历史",
+    icon: "time",
+    link: "/timeline",
+  },
 ]);

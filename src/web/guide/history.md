@@ -2,6 +2,14 @@
 title: 前端开发简史
 icon: lishi
 order: 2
+author: 小孙同学
+date: 2023-07-26
+category:
+  - 前端开发
+tag:
+  - 简史
+sticky: false
+star: false
 ---
 
 ## 一个改变世界的 idea
