@@ -31,9 +31,4 @@ export const navBar = navbar([
     icon: "coder",
     link: "/life/coder/lei-jun",
   },
-  {
-    text: "关于",
-    icon: "about",
-    link: "/slides/about",
-  },
 ]);
