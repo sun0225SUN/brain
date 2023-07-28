@@ -1,23 +1,27 @@
-// you can change colors here
-$theme-color: #096dd9;
-
+// 全局字体
 $font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei";
 
-// .vuepress/styles/palette.scss
+// 主题色
+$theme-color: #096dd9;
+
+// 背景色
 $bg-color: (
   light: #ffffff,
   dark: #0d1117,
 );
 
+// 文字颜色
 $text-color: (
   light: #000000,
   dark: #dedede,
 );
 
+// 目录文本颜色
 #toc .toc-link {
   color: var(--text-color);
 }
 
+// 导航栏字体
 .vp-navbar .nav-item > .nav-link {
   color: var(--text-color);
 }
