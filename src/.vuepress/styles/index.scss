@@ -39,8 +39,8 @@
 
 // 文章内容
 .theme-hope-content {
-  // 文本缩进
-  p {
+  // 正文文本缩进
+  > p {
     text-indent: 2em;
   }
   // 列表缩进
