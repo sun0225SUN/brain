@@ -8,4 +8,11 @@ export const ai = arraySidebar([
     children: "structure",
     collapsible: true,
   },
+  {
+    icon: "python",
+    text: "Python程序设计",
+    prefix: "python/",
+    children: "structure",
+    collapsible: true,
+  },
 ]);
