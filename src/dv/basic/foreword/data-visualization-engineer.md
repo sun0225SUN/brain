@@ -5,7 +5,6 @@ order: 1
 author: 小孙同学
 date: 2023-07-28
 category:
-  - 前端开发
   - 数据可视化
 tag:
   - 简史

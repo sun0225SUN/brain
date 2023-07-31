@@ -1,7 +1,15 @@
 ---
 title: 浏览器如何实现可视化
-icon: note
+icon: post
 order: 1
+author: 小孙同学
+date: 2023-07-31
+category:
+  - 数据可视化
+tag:
+  - 浏览器
+sticky: false
+star: false
 ---
 
 ::: warning 声明
