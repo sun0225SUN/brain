@@ -223,4 +223,11 @@ export const dv = arraySidebar([
     // children: "structure",
     collapsible: true,
   },
+  {
+    text: "AntV",
+    icon: "antv",
+    prefix: "antv/",
+    children: "structure",
+    collapsible: true,
+  },
 ]);
