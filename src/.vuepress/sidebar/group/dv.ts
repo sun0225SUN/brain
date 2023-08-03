@@ -150,23 +150,16 @@ export const dv = arraySidebar([
     prefix: "cesium/",
     children: [
       {
-        text: "前言",
-        icon: "discover",
-        prefix: "00/",
-        children: "structure",
-        collapsible: true,
-      },
-      {
         text: "概述",
-        icon: "discover",
-        prefix: "01/",
+        icon: "zhinanzhen",
+        prefix: "guide/",
         children: "structure",
         collapsible: true,
       },
       {
         text: "快速上手",
-        icon: "discover",
-        prefix: "reusability/",
+        icon: "kuaisu",
+        prefix: "quick-start/",
         children: "structure",
         collapsible: true,
       },
