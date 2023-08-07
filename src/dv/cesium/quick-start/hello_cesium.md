@@ -229,4 +229,63 @@ app.mount("#app");
 
 ## 三、界面介绍
 
-todo
+Viewer 是一个带有多种功能的可交互的三维数字地球容器。
+
+三维地球场景支持采用鼠标（桌面端）和手指触摸（移动端）的方式进行交互，并默认支持以下几种相机漫游方式。
+
+• 按住鼠标左键拖曳：拖动相机在三维地球平面平移。
+
+• 按住鼠标右键拖曳：缩放相机。
+
+• 使用鼠标滚轮（即鼠标中键）滑动：缩放相机。
+
+• 按住鼠标滚轮拖曳：根据当前地球的屏幕中点，旋转相机。
+
+![](https://files.sunguoqi.com/brain-images/202308071432080.png)
+
+- Geocoder 是位置查找工具
+
+  使用该控件可以输入要查找的地址，查找成功后，相机会跳转并对准找到的结果
+
+- HomeButton 是首页位置工具
+
+  单击该控件后，会将相机跳转到默认全球视角，也可以通过代码修改跳转位置
+
+- SceneModePicker 是视角模式切换工具
+
+  使用该控件可以设置视角模式为 3D、2D 及哥伦布视图（CV）
+
+- BaseLayerPicker 是默认图层选择工具
+
+  用于选择要显示的地图服务和地形服务
+
+- NavigationHelpButton 是导航帮助工具
+
+  用于显示默认的地图控制和帮助选项
+
+- Animation 是动画工具
+
+  用于控制视图动画的播放速度
+
+- TimeLine 是时间轴工具
+
+  用于指示当前时间，并且允许用户跳转到指定时间
+
+- FullscreenButton 是全屏按钮工具
+
+  单击该控件，可以进入全屏模式，再次单击该控件，即可退出全屏模式
+
+以上控件，在初始化 Viewer 时，将配置项设置为 false 即可隐藏
+
+```js
+new Cesium.Viewer("cesiumContainer", {
+  geocoder: false, // 是否显示位置查找工具
+  homeButton: false, // 是否显示首页位置工具
+  sceneModePicker: false, // 是否显示视角模式切换工具
+  baseLayerPicker: false, // 是否显示默认图层选择工具
+  navigationHelpButton: false, // 是否显示导航帮助工具
+  animation: false, // 是否显示动画工具
+  timeline: false, // 是否显示时间轴工具
+  fullscreenButton: true, // 是否显示全屏按钮工具
+});
+```
