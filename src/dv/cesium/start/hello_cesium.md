@@ -76,9 +76,7 @@ npm create vite@latest
 import { onMounted } from "vue";
 
 onMounted(() => {
-  const viewer = new Cesium.Viewer("cesiumContainer", {
-    infoBox: false,
-  });
+  const viewer = new Cesium.Viewer("cesiumContainer");
 });
 </script>
 
@@ -145,9 +143,7 @@ import * as Cesium from "cesium";
 import { onMounted } from "vue";
 
 onMounted(() => {
-  const viewer = new Cesium.Viewer("cesiumContainer", {
-    infoBox: false,
-  });
+  const viewer = new Cesium.Viewer("cesiumContainer");
 });
 </script>
 
