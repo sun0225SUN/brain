@@ -32,7 +32,7 @@ export const web = arraySidebar([
   {
     text: "JS",
     icon: "javascript",
-    prefix: "html/",
+    prefix: "js/",
     children: [
       {
         text: "概述",
