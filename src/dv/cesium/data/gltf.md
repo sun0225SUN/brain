@@ -12,6 +12,8 @@ tag:
   - 数据加载
 ---
 
+![](https://files.sunguoqi.com/brain-images/202308101612100.png)
+
 ## glTF
 
 glTF（GL Transmission Format），即图形语言交换格式，是一种 3D 内容的格式标准，其本质是一个 JSON 文件。该文件描述了整个 3D 场景的内容，包含了对场景结构进行描述的场景图。场景中的 3D 对象通过场景节点引用网格进行定义[1]。材质定义了 3D 对象的外观，动画定义了 3D 对象的变换操作（如选择、平移操作）。
@@ -61,8 +63,6 @@ onMounted(() => {
 
 <style scoped></style>
 ```
-
-![](https://files.sunguoqi.com/brain-images/202308101612100.png)
 
 ## 参考资料
 

@@ -11,6 +11,8 @@ tag:
   - GeoJson
 ---
 
+![](https://files.sunguoqi.com/brain-images/202308101521437.png)
+
 ## GeoJSON
 
 GeoJSON 是一种对各种地理数据结构进行编码的格式，是基于 JavaScript 对象表示法（JavaScript Object Notation，JSON）的地理空间信息数据交换格式。
@@ -50,8 +52,6 @@ onMounted(() => {
 
 <style scoped></style>
 ```
-
-![](https://files.sunguoqi.com/brain-images/202308101521437.png)
 
 ## 参考资料
 

@@ -11,7 +11,7 @@ tag:
   - 数据加载
 ---
 
-![](https://files.sunguoqi.com/brain-images/202308101132755.png)
+![](https://files.sunguoqi.com/brain-images/202308101438111.png)
 
 ## 3D Tiles 简介
 
@@ -55,8 +55,6 @@ onMounted(() => {
 
 <style scoped></style>
 ```
-
-![](https://files.sunguoqi.com/brain-images/202308101438111.png)
 
 ## 参考资料
 
