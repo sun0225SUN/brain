@@ -1,7 +1,13 @@
 ---
 title: 尤雨溪
-icon: people
-order: 2
+icon: coder
+order: 9
+author: 小孙同学
+date: 2023-03-25
+category:
+  - 程序人生
+tag:
+  - 尤雨溪
 ---
 
 ::: info 原文信息

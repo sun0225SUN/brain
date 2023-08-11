@@ -29,7 +29,7 @@ export const navBar = navbar([
   {
     text: "程序人生",
     icon: "coder",
-    link: "/life/coder/lei-jun",
+    link: "/life/coder/me",
   },
   {
     text: "更新历史",

@@ -1,7 +1,13 @@
 ---
 title: 三咲智子
-icon: people
-order: 4
+icon: coder
+order: 15
+author: 小孙同学
+date: 2023-03-25
+category:
+  - 程序人生
+tag:
+  - 智子
 ---
 
 ## 自我介绍
