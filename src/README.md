@@ -28,7 +28,7 @@ features:
 
   - title: 协作交流
     icon: jiaoliu
-    details: 莫愁前路无知己，天下谁人不识君（测试一下）
+    details: 莫愁前路无知己，天下谁人不识君
     # link: https://theme-hope.vuejs.press/guide/feature/comment.html
 
 copyright: false
