@@ -41,12 +41,6 @@ export default hopeTheme({
     // 时间线标题
     timeline: "好好学习，天天向上",
     // 社交媒体
-    medias: {
-      Twitter: "https://twitter.com/sun0225SUN",
-      GitHub: "https://github.com/sun0225UN",
-      Gmail: "mailto:sun412926@gmail.com",
-      Wechat: "https://box.sunguoqi.com/weixin_mp/",
-    },
   },
 
   // 全屏按钮
