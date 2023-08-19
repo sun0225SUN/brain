@@ -43,12 +43,8 @@ export default hopeTheme({
     // 社交媒体
     medias: {
       Twitter: "https://twitter.com/sun0225SUN",
-      Zhihu: "https://www.zhihu.com/people/sunguoqi",
-      BiliBili: "https://space.bilibili.com/448488855/",
       GitHub: "https://github.com/sun0225UN",
-      Gitee: "https://gitee.com/sun0225SUN",
       Gmail: "mailto:sun412926@gmail.com",
-      Youtube: "https://www.youtube.com/@sun0225SUN",
       Wechat: "https://box.sunguoqi.com/weixin_mp/",
     },
   },
