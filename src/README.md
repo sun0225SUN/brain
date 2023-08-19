@@ -17,7 +17,7 @@ features:
     # link: https://theme-hope.vuejs.press/guide/markdown/
 
   - title: 知识管理
-    icon: zhishiku
+    icon: book
     details: 结构化知识体系，构建自己的数字大脑
     # link: https://theme-hope.vuejs.press/guide/layout/slides.html
 
