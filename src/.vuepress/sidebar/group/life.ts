@@ -15,4 +15,18 @@ export const life = arraySidebar([
     children: "structure",
     collapsible: true,
   },
+  {
+    icon: "discover",
+    text: "求职面试",
+    prefix: "coder/",
+    children: "structure",
+    collapsible: true,
+  },
+  {
+    icon: "discover",
+    text: "减肥指南",
+    prefix: "coder/",
+    children: "structure",
+    collapsible: true,
+  },
 ]);

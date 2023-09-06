@@ -13,8 +13,6 @@ sticky: false
 star: false
 ---
 
-![](https://files.sunguoqi.com/brain-images/202308101732028.jpg)
-
 ## 🚧 正在施工中。。。
 
 ## 学习路线
