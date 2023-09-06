@@ -1,6 +1,6 @@
 import { arraySidebar } from "vuepress-theme-hope";
 
-export const web = arraySidebar([
+export const fe = arraySidebar([
   {
     icon: "hi",
     text: "Foreword",

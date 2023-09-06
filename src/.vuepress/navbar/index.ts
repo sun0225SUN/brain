@@ -7,10 +7,15 @@ export const navBar = navbar([
     link: "/",
   },
   {
-    text: "Web开发",
-    icon: "web",
-    link: "/web/guide/history",
+    text: "前端开发",
+    icon: "frontend",
+    link: "/web/frontend/guide/history",
   },
+  // {
+  //   text: "后端开发",
+  //   icon: "backend",
+  //   link: "/web/backend/todo",
+  // },
   {
     text: "数据可视化",
     icon: "dv",
