@@ -8,63 +8,39 @@ category:
   - JavaScript
 ---
 
-JavaScript is the programming language of the web. The overwhelming majority of websites use JavaScript, and all modern web browsers—on desktops, tablets, and phones—include JavaScript interpreters, making JavaScript the most-deployed programming language in history. Over the last decade, Node.js has enabled JavaScript programming outside of web browsers, and the dramatic success of Node means that JavaScript is now also the most-used programming language among software developers. Whether you’re starting from scratch or are already using JavaScript professionally, this book will help you master the language.
+JavaScript 是 Web 的编程语言。绝大多数的网站都使用 JavaScript，所有的现代网络浏览器（无论是桌面、平板还是手机浏览器，书中以后同城为浏览器）都包括 JavaScript 解释器，这使得 JavaScript 成为历史上部署最多的编程语言。在过去的十年中，Node.js 使得 JavaScript 编程可以在 Web 浏览器之外进行，Node 的巨大成功意味着 JavaScript 现在也是软件开发人员最常用的编程语言。无论你是从零开始还是已经在工作中使用 JavaScript，这本书都会帮助你掌握这门语言。
 
-> JavaScript 是 web 的编程语言。绝大多数的网站都使用 JavaScript，所有的现代网络浏览器——台式机、平板电脑和手机——都包括 JavaScript 解释器，这使得 JavaScript 成为历史上部署最多的编程语言。在过去的十年中，Node.js 使得 JavaScript 编程可以在 web 浏览器之外进行，Node 的巨大成功意味着 JavaScript 现在也是软件开发人员最常用的编程语言。无论你是从零开始还是已经开始专业地使用 JavaScript，这本书都会帮助你掌握这门语言。
+如果你已经熟悉了其他编程语言，那么了解 JavaScript 是一种高级的、动态的、解释的编程语言可能会对您有所帮助，它非常适合面向对象和函数式编程风格。JavaScript 的变量是无类型的。它的语法大致与 Java 相仿，但除此之外这两种语言之间没有任何关系。JavaScript 从 Scheme 借鉴了一类（first-class）函数，从不太知名的 Self 借鉴了基于原型的继承。但要阅读本书或学习 JavaScript 不需要了解这些语言，也不必熟悉这些术语。
 
-If you are already familiar with other programming languages, it may help you to know that JavaScript is a high-level, dynamic, interpreted programming language that is well-suited to object-oriented and functional programming styles. JavaScript’s variables are untyped. Its syntax is loosely based on Java, but the languages are otherwise unrelated. JavaScript derives its first-class functions from Scheme and its prototype-based inheritance from the little-known language Self. But you do not need to know any of those languages, or be familiar with those terms, to use this book and learn JavaScript.
+“JavaScript”这个名称很容易引起误解。除了表面上的语法相似之外，JavaScript 与 Java 编程语言完全不同。而且 JavaScript 早已超越了它的脚本语言根基，成为一种健壮、高效的通用语言，适合于具有巨大代码库的严肃软件工程和项目。
 
-> 如果您已经熟悉了其他编程语言，那么了解 JavaScript 是一种高级的、动态的、解释的编程语言可能会对您有所帮助，它非常适合面向对象和函数式编程风格。JavaScript 的变量是无类型的。它的语法不严格地讲基于 Java，但是这两种语言在其他方面是无关的。JavaScript 的 first-class 类型函数衍生于 Scheme，从鲜为人知的 Self 继承基于原型的函数。但您不需要了解任何这些语言，或熟悉这些术语，以使用这本书和学习 JavaScript。
+::: info JavaScript: 名字、版本和模式
 
-The name “JavaScript” is quite misleading. Except for a superficial syntactic resemblance, JavaScript is completely different from the Java programming language. And JavaScript has long since outgrown its scripting-language roots to become a robust and efficient general-purpose language suitable for serious software engineering and projects with huge codebases.
+&emsp;&emsp;JavaScript 是在网络早期由网景公司创建的，从技术上讲，“JavaScript”是 Sun Microsystems（现在的 Oracle）授权的商标，用来描述 Netscape 公司（现在的 Mozilla 公司）对该语言的实现。Netscape 公司将这种语言提交给欧洲计算机制造商协会（ecma）进行标准化，但由于商标问题，这种语言的标准化版本只能使用一个尴尬的名字“ECMAScript”。实际上，每个人都称这种语言为 JavaScript。本书使用名称“ECMAScript”和缩写“ES”来表示该语言标准和该标准的版本。
 
-> “JavaScript”这个名称很容易引起误解。除了表面上的语法相似之外，JavaScript 与 Java 编程语言完全不同。而且 JavaScript 早已超越了它的脚本语言根基，成为一种健壮、高效的通用语言，适合于具有巨大代码库的严肃软件工程和项目。
+&emsp;&emsp;对于 2010 年代的大多数版本，所有 web 浏览器都支持 ECMAScript 标准的第 5 版。本书将 ES5 作为兼容性基线，不再讨论该语言的早期版本。ES6 于 2015 年发布，增加了主要的新特性（包括类和模块语法），使 JavaScript 从一种脚本语言变成了一种严肃的、适用于大规模软件工程的通用语言。自 ES6 以来，ECMAScript 规范已经以每年发布一次为基调，该语言的版本——es2016、ES2017、ES2018、ES2019 和 ES2020——现在以发布年份来确定。
 
-#### JAVASCRIPT: NAMES, VERSIONS, AND MODES
+&emsp;&emsp;随着 JavaScript 的发展，语言设计者试图纠正早期版本（es5 之前）的缺陷。为了保持向后兼容性，不可能删除遗留特性，无论其缺陷有多大。但在 ES5 及以后版本中，程序可以选择使用 JavaScript 的严格模式，在这种模式中，早期的一些语言错误已经得到了纠正。选择加入的机制是本书 5.6.3 中描述的“严格使用”指令。这一节还总结了传统 JavaScript 和严格 JavaScript 之间的区别。在 ES6 及以后版本中，使用新的语言特性通常会隐式地调用 strict 模式。例如，如果您使用 ES6 类关键字或创建 ES6 模块，那么类或模块中的所有代码将自动严格，并且在这些上下文中不能使用旧的、有缺陷的特性。这本书将涵盖 JavaScript 的遗留特性，但小心地指出，它们在严格模式下是不可用的。
 
-JavaScript was created at Netscape in the early days of the web, and technically, “JavaScript” is a trademark licensed from Sun Microsystems (now Oracle) used to describe Netscape’s (now Mozilla’s) implementation of the language. Netscape submitted the language for standardization to ECMA—the European Computer Manufacturer’s Association—and because of trademark issues, the standardized version of the language was stuck with the awkward name “ECMAScript.” In practice, everyone just calls the language JavaScript. This book uses the name “ECMAScript” and the abbreviation “ES” to refer to the language standard and to versions of that standard.
+:::
 
-> JavaScript 是在网络早期由网景公司创建的，从技术上讲，“JavaScript”是 Sun Microsystems（现在的 Oracle）授权的商标，用来描述 Netscape 公司（现在的 Mozilla 公司）对该语言的实现。Netscape 公司将这种语言提交给欧洲计算机制造商协会（ecma）进行标准化，但由于商标问题，这种语言的标准化版本只能使用一个尴尬的名字“ECMAScript”。实际上，每个人都称这种语言为 JavaScript。本书使用名称“ECMAScript”和缩写“ES”来表示该语言标准和该标准的版本。
+每种语言都必须有一个平台或标准库来执行基本输入和输出之类的操作。核心 JavaScript 语言定义了一个极小的 API 处理数字、文本、数组、集合、映射等，但不包括任何输入或输出功能。输入和输出（以及更复杂的特性，如网络、存储和图形）由嵌入 JavaScript 的“宿主”负责。
 
-For most of the 2010s, version 5 of the ECMAScript standard has been supported by all web browsers. This book treats ES5 as the compatibility baseline and no longer discusses earlier versions of the language. ES6 was released in 2015 and added major new features—including class and module syntax—that changed JavaScript from a scripting language into a serious, general-purpose language suitable for large-scale software engineering. Since ES6, the ECMAScript specification has moved to a yearly release cadence, and versions of the language—ES2016, ES2017, ES2018, ES2019, and ES2020—are now identified by year of release.
+JavaScript 的原始宿主环境是一个 Web 浏览器，也是 JavaScript 代码最常见的执行环境。Web 浏览器环境允许 JavaScript 代码通过发送 HTTP 请求从用户的鼠标和键盘获取输入。它允许 JavaScript 代码用 HTML 和 CSS 向用户显示输出。
 
-> 对于 2010 年代的大多数版本，所有 web 浏览器都支持 ECMAScript 标准的第 5 版。本书将 ES5 作为兼容性基线，不再讨论该语言的早期版本。ES6 于 2015 年发布，增加了主要的新特性（包括类和模块语法），使 JavaScript 从一种脚本语言变成了一种严肃的、适用于大规模软件工程的通用语言。自 ES6 以来，ECMAScript 规范已经以每年发布一次为基调，该语言的版本——es2016、ES2017、ES2018、ES2019 和 es2020——现在以发布年份来确定。
+从 2010 年开始，另一个宿主已经可以用于 JavaScript 代码。与限制 JavaScript 只能使用浏览器提供的 API 不同，Node 允许 JavaScript 访问整个操作系统，允许 JavaScript 程序读写文件，通过网络发送和接收数据，以及发送和处理 HTTP 请求。Node 是实现 Web 服务器的常用选择，也是编写简单实用程序脚本的方便工具，可以作为 shell 脚本的替代。
 
-As JavaScript evolved, the language designers attempted to correct flaws in the early (pre-ES5) versions. In order to maintain backward compatibility, it is not possible to remove legacy features, no matter how flawed. But in ES5 and later, programs can opt in to JavaScript’s strict mode in which a number of early language mistakes have been corrected. The mechanism for opting in is the “use strict” directive described in §5.6.3. That section also summarizes the differences between legacy JavaScript and strict JavaScript. In ES6 and later, the use of new language features often implicitly invokes strict mode. For example, if you use the ES6 class keyword or create an ES6 module, then all the code within the class or module is automatically strict, and the old, flawed features are not available in those contexts. This book will cover the legacy features of JavaScript but is careful to point out that they are not available in strict mode.
+本书的大部分内容都集中在 JavaScript 语言本身。第 11 章介绍了 JavaScript 标准库，第 15 章介绍了 Web 浏览器宿主，第 16 章介绍了 Node 宿主。
 
-> 随着 JavaScript 的发展，语言设计者试图纠正早期版本（es5 之前）的缺陷。为了保持向后兼容性，不可能删除遗留特性，无论其缺陷有多大。但在 ES5 及以后版本中，程序可以选择使用 JavaScript 的严格模式，在这种模式中，早期的一些语言错误已经得到了纠正。选择加入的机制是 §5.6.3 中描述的“严格使用”指令。这一节还总结了传统 JavaScript 和严格 JavaScript 之间的区别。在 ES6 及以后版本中，使用新的语言特性通常会隐式地调用 strict 模式。例如，如果您使用 ES6 类关键字或创建 ES6 模块，那么类或模块中的所有代码将自动严格，并且在这些上下文中不能使用旧的、有缺陷的特性。这本书将涵盖 JavaScript 的遗留特性，但小心地指出，它们在严格模式下是不可用的。
+全书首先介绍了底层基础知识，然后在这些基础上构建更高级和更高级别的抽象。设置这些章节的目的是让读者或多或少地按顺序阅读。但是学习一种新的编程语言从来都不是一个线性的过程，描述一种语言也不是线性的：每一种语言的特性都与其他特性相关，这本书充满了交叉引用（有时向后，有时向前的相关材料）。本章会对该语言进行一次快速的介绍，介绍了一些对理解后续章节的深入婆媳有帮助的关键特性。如果你已经是一个实践 JavaScript 程序员，你可以跳过这一章。（尽管你可能会喜欢阅读本章末尾的示例 1-1，然后再继续阅读。）
 
-To be useful, every language must have a platform, or standard library, for performing things like basic input and output. The core JavaScript language defines a minimal API for working with numbers, text, arrays, sets, maps, and so on, but does not include any input or output functionality. Input and output (as well as more sophisticated features, such as networking, storage, and graphics) are the responsibility of the “host environment” within which JavaScript is embedded.
+## 1.1 探索 JavaScript
 
-> 每种语言都必须有一个平台或标准库来执行基本输入和输出之类的操作。核心 JavaScript 语言定义了一个极小的 API 处理数字、文本、数组、集合、映射等，但不包括任何输入或输出功能。输入和输出（以及更复杂的特性，如网络、存储和图形）由嵌入 JavaScript 的“宿主”负责。
+在学习一门新的编程语言时，试一试书中的示例是很重要的，然后修改它们，再试一次来测试你对这门语言的理解。为此，需要一个 JavaScript 解释器。
 
-The original host environment for JavaScript was a web browser, and this is still the most common execution environment for JavaScript code. The web browser environment allows JavaScript code to obtain input from the user’s mouse and keyboard and by making HTTP requests. And it allows JavaScript code to display output to the user with HTML and CSS.
+尝试几行 JavaScript 的最简单方法是在 Web 浏览器中打开 Web developer 工具（使用 F12、Ctrl-Shift-I 或 Command-Option-I）并选择 Console 选项卡。然后可以在提示符处键入代码，并在键入时查看结果。浏览器开发人员工具通常以窗格的形式出现在浏览器窗口的底部或右侧，但是您通常可以将它们分离为单独的窗口（如图 1-1 所示），这通常非常方便。
 
-> JavaScript 的原始宿主环境是一个 web 浏览器，这仍然是 JavaScript 代码最常见的执行环境。web 浏览器环境允许 JavaScript 代码通过发送 HTTP 请求从用户的鼠标和键盘获取输入。它允许 JavaScript 代码用 HTML 和 CSS 向用户显示输出。
-
-Since 2010, another host environment has been available for JavaScript code. Instead of constraining JavaScript to work with the APIs provided by a web browser, Node gives JavaScript access to the entire operating system, allowing JavaScript programs to read and write files, send and receive data over the network, and make and serve HTTP requests. Node is a popular choice for implementing web servers and also a convenient tool for writing simple utility scripts as an alternative to shell scripts.
-
-> 从 2010 年开始，另一个宿主已经可以用于 JavaScript 代码。Node 没有限制 JavaScript 使用 web 浏览器提供的 api，而是允许 JavaScript 访问整个操作系统，允许 JavaScript 程序读和写文件，通过网络发送和接收数据，以及发出和服务 HTTP 请求。Node 是实现 web 服务器的常用选择，也是编写简单实用程序脚本的方便工具，可以作为 shell 脚本的替代。
-
-Most of this book is focused on the JavaScript language itself. Chapter 11 documents the JavaScript standard library, Chapter 15 introduces the web browser host environment, and Chapter 16 introduces the Node host environment.
-
-> 这本书的大部分内容都集中在 JavaScript 语言本身。第 11 章介绍了 JavaScript 标准库，第 15 章介绍了 web 浏览器宿主，第 16 章介绍了 Node 宿主。
-
-This book covers low-level fundamentals first, and then builds on those to more advanced and higher-level abstractions. The chapters are intended to be read more or less in order. But learning a new programming language is never a linear process, and describing a language is not linear either: each language feature is related to other features, and this book is full of cross-references—sometimes backward and sometimes forward—to related material. This introductory chapter makes a quick first pass through the language, introducing key features that will make it easier to understand the in-depth treatment in the chapters that follow. If you are already a practicing JavaScript programmer, you can probably skip this chapter. (Although you might enjoy reading Example 1-1 at the end of the chapter before you move on.)
-
-> 这本书首先介绍了底层基础知识，然后在这些基础上构建更高级和更高级别的抽象。这些章节的目的是让读者或多或少地按顺序阅读。但是学习一种新的编程语言从来都不是一个线性的过程，描述一种语言也不是线性的：每一种语言的特性都与其他特性相关，这本书充满了交叉引用——有时向后，有时向前的相关材料。这一介绍性章节对该语言进行了一次快速的介绍，并介绍了一些关键特性，这些特性将使后续章节的深入处理更容易理解。如果你已经是一个实践 JavaScript 程序员，你可以跳过这一章。（尽管你可能会喜欢阅读本章末尾的示例 1-1，然后再继续阅读。）
-
-## 1.1 Exploring JavaScript
-
-When learning a new programming language, it’s important to try the examples in the book, then modify them and try them again to test your understanding of the language. To do that, you need a JavaScript interpreter.
-
-> 在学习一门新的编程语言时，试一试书中的示例是很重要的，然后修改它们，再试一次来测试你对这门语言的理解。为此，需要一个 JavaScript 解释器。
-
-The easiest way to try out a few lines of JavaScript is to open up the web developer tools in your web browser (with F12, Ctrl-Shift-I, or Command-Option-I) and select the Console tab. You can then type code at the prompt and see the results as you type. Browser developer tools often appear as panes at the bottom or right of the browser window, but you can usually detach them as separate windows (as pictured in Figure 1-1), which is often quite convenient.
-
-> 尝试几行 JavaScript 的最简单方法是在 web 浏览器中打开 web developer 工具（使用 F12、Ctrl-Shift-I 或 Command-Option-I）并选择 Console 选项卡。然后可以在提示符处键入代码，并在键入时查看结果。浏览器开发人员工具通常以窗格的形式出现在浏览器窗口的底部或右侧，但是您通常可以将它们分离为单独的窗口（如图 1-1 所示），这通常非常方便。
-
-<Figures figure="1-1">The JavaScript console in Firefox’s Developer Tools</Figures>
+【The JavaScript console in Firefox’s Developer Tools】
 
 Another way to try out JavaScript code is to download and install Node from https://nodejs.org. Once Node is installed on your system, you can simply open a Terminal window and type node to begin an interactive JavaScript session like this one:
 
@@ -136,7 +112,7 @@ Open the developer tools window to see the greeting in the console.
 
 > 打开 developer tools 窗口，在控制台中查看问候语。
 
-## 1.3 A Tour of JavaScript
+## 1.3 JavaScript 之旅
 
 This section presents a quick introduction, through code examples, to the JavaScript language. After this introductory chapter, we dive into JavaScript at the lowest level: Chapter 2 explains things like JavaScript comments, semicolons, and the Unicode character set. Chapter 3 starts to get more interesting: it explains JavaScript variables and the values you can assign to those variables.
 
@@ -494,7 +470,7 @@ Covers tools and language extensions that are worth knowing about because they a
 
 > 涵盖了值得了解的工具和语言扩展，因为它们被广泛使用，可能使您成为更有生产力的程序员。
 
-## 1.4 Example: Character Frequency Histograms
+## 1.4 示例: 字符频率柱形图
 
 This chapter concludes with a short but nontrivial JavaScript program. Example 1-1 is a Node program that reads text from standard input, computes a character frequency histogram from that text, and then prints out the histogram. You could invoke the program like this to analyze the character frequency of its own source code:
 
@@ -625,8 +601,6 @@ histogramFromStdin().then((histogram) => {
 });
 ```
 
-## 1.5 Summary
+## 1.5 小结
 
-This book explains JavaScript from the bottom up. This means that we start with low-level details like comments, identifiers, variables, and types; then build to expressions, statements, objects, and functions; and then cover high-level language abstractions like classes and modules. I take the word definitive in the title of this book seriously, and the coming chapters explain the language at a level of detail that may feel off-putting at first. True mastery of JavaScript requires an understanding of the details, however, and I hope that you will make time to read this book cover to cover. But please don’t feel that you need to do that on your first reading. If you find yourself feeling bogged down in a section, simply skip to the next. You can come back and master the details once you have a working knowledge of the language as a whole.
-
-> 这本书从下至上地说明了 JavaScript。这意味着我们从底层细节开始，比如注释、标识符、变量和类型；然后构建表达式、语句、对象和函数；然后介绍高级语言抽象，比如类和模块。我在这本书的标题中认真地使用了“权威”这个词，接下来的章节会详细地解释这种语言，一开始可能会让人感到不快。然而，真正掌握 JavaScript 需要了解细节，我希望您能抽出时间从头到尾阅读这本书。但请不要觉得在第一次阅读时就需要这样做。如果你发现自己在某个章节陷入困境，直接跳到下一个章节。一旦你对语言有了整体的应用知识，你可以回过头来掌握细节。
+这本书从下至上地说明了 JavaScript。这意味着我们从底层细节开始，比如注释、标识符、变量和类型；然后构建表达式、语句、对象和函数；然后介绍高级语言抽象，比如类和模块。我在这本书的标题中认真地使用了“权威”这个词，接下来的章节会详细地解释这种语言，一开始可能会让人感到不快。然而，真正掌握 JavaScript 需要了解细节，我希望您能抽出时间从头到尾阅读这本书。但请不要觉得在第一次阅读时就需要这样做。如果你发现自己在某个章节陷入困境，直接跳到下一个章节。一旦你对语言有了整体的应用知识，你可以回过头来掌握细节。
