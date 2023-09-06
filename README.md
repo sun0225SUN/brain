@@ -27,4 +27,4 @@
 
 从无序到有序，从碎片化到结构化，从输入到输出，当知识完整地经过了你的大脑，那我想它会永远属于你！
 
-![Alt](https://repobeats.axiom.co/api/embed/257eac0553b07078702518d52bc7431988f6f446.svg "Repobeats analytics image")
+![](https://repobeats.axiom.co/api/embed/257eac0553b07078702518d52bc7431988f6f446.svg)
