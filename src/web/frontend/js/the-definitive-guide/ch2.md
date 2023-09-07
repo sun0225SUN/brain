@@ -8,6 +8,10 @@ category:
   - JavaScript
 ---
 
+::: tip
+本文内容基于《JavaScript 权威指南（原书第七版）》并融入了我的个人理解和学习笔记。
+:::
+
 The lexical structure of a programming language is the set of elementary rules that specifies how you write programs in that language. It is the lowest-level syntax of a language: it specifies what variable names look like, the delimiter characters for comments, and how one program statement is separated from the next, for example. This short chapter documents the lexical structure of JavaScript. It covers:
 
 > 编程语言的词法结构是一组基本规则，用于指定如何用该语言编写程序。它是一种语言的最低层次语法：例如，它指定变量名的样子，注释的分隔符字符，以及一个程序语句如何与下一个程序语句分隔。这个简短的章节描述了 JavaScript 的词法结构。它涵盖了：

@@ -8,6 +8,10 @@ category:
   - JavaScript
 ---
 
+::: tip
+本文内容基于《JavaScript 权威指南（原书第七版）》，融入了我的个人理解和学习笔记。
+:::
+
 JavaScript 是 Web 的编程语言。绝大多数的网站都使用 JavaScript，所有的现代网络浏览器（无论是桌面、平板还是手机浏览器，书中以后同城为浏览器）都包括 JavaScript 解释器，这使得 JavaScript 成为历史上部署最多的编程语言。在过去的十年中，Node.js 使得 JavaScript 编程可以在 Web 浏览器之外进行，Node 的巨大成功意味着 JavaScript 现在也是软件开发人员最常用的编程语言。无论你是从零开始还是已经在工作中使用 JavaScript，这本书都会帮助你掌握这门语言。
 
 如果你已经熟悉了其他编程语言，那么了解 JavaScript 是一种高级的、动态的、解释的编程语言可能会对您有所帮助，它非常适合面向对象和函数式编程风格。JavaScript 的变量是无类型的。它的语法大致与 Java 相仿，但除此之外这两种语言之间没有任何关系。JavaScript 从 Scheme 借鉴了一类（first-class）函数，从不太知名的 Self 借鉴了基于原型的继承。但要阅读本书或学习 JavaScript 不需要了解这些语言，也不必熟悉这些术语。
