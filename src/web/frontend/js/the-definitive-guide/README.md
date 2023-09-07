@@ -1,9 +1,11 @@
 ---
-title: 犀牛书
-icon: book
 dir:
+  text: 犀牛书
+  icon: book
   order: 2
-article: false
+  link: true
 ---
 
-<AutoCatalog />
+<PDF url="/assets/books/js/JavaScript权威指南.pdf" height="700px"/>
+
+<!-- <AutoCatalog /> -->
