@@ -11,4 +11,4 @@ category:
   - Books
 ---
 
-<PDF url="/assets/books/js/JavaScript权威指南.pdf" height="680px"/>
+<PDF url="/assets/books/js/JavaScript权威指南.pdf" height="680px" no-toolbar />
