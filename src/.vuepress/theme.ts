@@ -91,7 +91,7 @@ export default hopeTheme({
       cacheHTML: true,
       cachePic: true,
       appendBase: true,
-      update: "force",
+      update: "hint",
       apple: {
         icon: "/assets/icon/apple-icon-152.png",
         statusBarColor: "black",
