@@ -4,6 +4,7 @@ icon: post
 order: 1
 author: 小孙同学
 date: 2023-08-20
+description: JavaScript 权威指南第一章
 category:
   - JavaScript
 ---
@@ -85,6 +86,7 @@ Node 是实现 Web 服务器的常用选择，也是编写简单实用程序脚�
 $ node
 Welcome to Node.js v18.16.1.
 Type ".help" for more information.
+
 > .help
 .break    Sometimes you get stuck, this gets you out
 .clear    Alias for .break
