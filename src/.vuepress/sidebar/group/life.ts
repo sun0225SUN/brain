@@ -2,30 +2,37 @@ import { arraySidebar } from "vuepress-theme-hope";
 
 export const life = arraySidebar([
   {
-    icon: "discover",
+    icon: "coder",
     text: "程序人生",
     prefix: "coder/",
     children: "structure",
     collapsible: true,
   },
   {
-    icon: "discover",
+    icon: "shengcun",
     text: "生存指南",
     prefix: "coder/",
     children: "structure",
     collapsible: true,
   },
   {
-    icon: "discover",
+    icon: "mianshi",
     text: "求职面试",
     prefix: "coder/",
     children: "structure",
     collapsible: true,
   },
   {
-    icon: "discover",
+    icon: "jianfei",
     text: "减肥指南",
     prefix: "coder/",
+    children: "structure",
+    collapsible: true,
+  },
+  {
+    icon: "book",
+    text: "好好读书",
+    prefix: "books/",
     children: "structure",
     collapsible: true,
   },

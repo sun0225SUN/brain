@@ -16,6 +16,13 @@ $text-color: (
   dark: #dedede,
 );
 
+.theme-hope-content {
+  // 字体加粗
+  strong {
+    color: var(--theme-color);
+  }
+}
+
 // 目录文本颜色
 #toc .toc-link {
   color: var(--text-color);
