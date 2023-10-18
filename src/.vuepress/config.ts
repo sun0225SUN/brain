@@ -1,5 +1,6 @@
 import theme from "./theme.js";
 import { defineUserConfig } from "vuepress";
+// @ts-ignore
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 
 export default defineUserConfig({

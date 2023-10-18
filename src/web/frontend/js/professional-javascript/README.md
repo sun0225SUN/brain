@@ -11,4 +11,4 @@ category:
   - Books
 ---
 
-<PDF url="/assets/books/js/JavaScript高级程序设计.pdf" height="680px" no-toolbar />
+<PDF url="/assets/books/js/JavaScript高级程序设计.pdf" height="950px" zoom="100%" no-toolbar />

@@ -29,11 +29,4 @@ export const life = arraySidebar([
     children: "structure",
     collapsible: true,
   },
-  {
-    icon: "book",
-    text: "好好读书",
-    prefix: "books/",
-    children: "structure",
-    collapsible: true,
-  },
 ]);
