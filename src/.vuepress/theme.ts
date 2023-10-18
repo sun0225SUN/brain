@@ -9,7 +9,7 @@ export default hopeTheme({
   logo: "/avatar.png",
   hostname: "https://brain.sunguoqi.com",
 
-  iconAssets: ["//at.alicdn.com/t/c/font_4184658_1wi235unbhv.css"],
+  iconAssets: ["//at.alicdn.com/t/c/font_4184658_hvus0vxqw5p.css"],
 
   locales: {
     "/": {
@@ -26,6 +26,12 @@ export default hopeTheme({
         editLink: "编辑此页",
       },
     },
+  },
+
+  navbarLayout: {
+    start: ["Brand"],
+    center: ["Links"],
+    end: ["WeChat", "Repo", "Outlook", "Search"],
   },
 
   plugins: {
