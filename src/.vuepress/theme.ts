@@ -35,8 +35,6 @@ export default hopeTheme(
       end: ["WeChat", "Outlook", "Repo", "Search"],
     },
 
-    fullscreen: true,
-
     plugins: {
       blog: true,
 
