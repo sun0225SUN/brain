@@ -2,7 +2,7 @@
   "name": "brain",
   "version": "1.0.0",
   "description": "My Second Brain",
-  "license": "MIT",
+  "license": "GPL",
   "type": "module",
   "scripts": {
     "build": "vuepress build src",

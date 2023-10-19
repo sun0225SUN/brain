@@ -23,8 +23,6 @@ export default defineUserConfig({
   theme,
   // 根据别名添加功能
   alias: {
-    // 你可以在这里将别名定向到自己的组件
-    // 比如这里我们将主题的主页组件改为用户 .vuepress/components 下的 HomePage.vue
     "@theme-hope/modules/info/components/TOC": path.resolve(
       __dirname,
       "./components/toc.vue"
