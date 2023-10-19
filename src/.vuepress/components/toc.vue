@@ -1,12 +1,14 @@
 <template>
   <TOC>
     <template #after>
-      <div id="flip-wrapper">
-        <div id="flip-content">
-          <div class="face"></div>
-          <div class="back face"></div>
+      <a href="https://box.sunguoqi.com/weixin_mp">
+        <div id="flip-wrapper">
+          <div id="flip-content">
+            <div class="face"></div>
+            <div class="back face"></div>
+          </div>
         </div>
-      </div>
+      </a>
     </template>
   </TOC>
 </template>

@@ -1,7 +1,7 @@
 <template>
   <a
     class="vp-repo-link"
-    href="https://box.sunguoqi.com/weixin_mp/"
+    href="https://box.sunguoqi.com/weixin_mp"
     rel="noopener noreferrer"
     target="_blank"
     data-balloon-pos="down"
