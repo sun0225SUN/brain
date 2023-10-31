@@ -10,10 +10,31 @@
     "dev": "vuepress dev src"
   },
   "devDependencies": {
+    "@types/katex": "0.16.5",
+    "@types/three": "0.158.1",
+    "@vue/repl": "2.6.1",
     "@vuepress/client": "2.0.0-beta.67",
-    "vue": "^3.3.4",
+    "@vuepress/shared": "2.0.0-beta.67",
+    "@vuepress/utils": "2.0.0-beta.67",
+    "@vueuse/core": "10.5.0",
+    "artplayer": "5.0.9",
+    "axios": "1.6.0",
+    "chart.js": "4.4.0",
+    "dash": "3.25.8",
+    "echarts": "5.4.3",
+    "flowchart.ts": "1.0.1",
+    "hls.js": "1.4.12",
+    "katex": "0.16.9",
+    "mermaid": "10.6.0",
+    "plyr": "3.7.8",
+    "reveal.js": "5.0.1",
+    "three": "0.158.0",
+    "vidstack": "1.5.0",
+    "vue": "3.3.7",
     "vuepress": "2.0.0-beta.67",
-    "vuepress-plugin-search-pro": "2.0.0-beta.238",
-    "vuepress-theme-hope": "2.0.0-beta.238"
+    "vuepress-plugin-copy-code2": "2.0.0-beta.243",
+    "vuepress-plugin-search-pro": "2.0.0-beta.243",
+    "vuepress-shared": "2.0.0-beta.243",
+    "vuepress-theme-hope": "2.0.0-beta.243"
   }
 }
