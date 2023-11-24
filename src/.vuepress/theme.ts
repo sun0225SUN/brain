@@ -42,6 +42,7 @@ export default hopeTheme(
         rss: true,
       },
 
+      // 请 fork 的同学更改评论的仓库配置！！！
       comment: {
         provider: "Giscus",
         repo: "sun0225SUN/Brain",
