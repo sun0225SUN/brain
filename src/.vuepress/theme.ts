@@ -75,7 +75,7 @@ export default hopeTheme(
         include: true,
         attrs: true,
         mark: true,
-        markmap: true,
+        // markmap: true,
         footnote: true,
         container: true,
         align: true,

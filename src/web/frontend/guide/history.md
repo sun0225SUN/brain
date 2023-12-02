@@ -12,7 +12,7 @@ tag:
 
 ## 一个改变世界的 idea
 
-![](https://files.sunguoqi.com/brain-images/202307141657242.webp "Berners-Lee 伯纳斯·李" =400x)
+![](https://files.sunguoqi.com/images/202312021630822.webp "Berners-Lee 伯纳斯·李" =400x)
 
 1980 年 6 月至 12 月间，伯纳斯·李（Berners-Lee）在欧洲核子研究组织（CERN）担任独立承包人，在那段时间里，他提出了一个构想:
 
@@ -22,7 +22,7 @@ tag:
 
 1984 年，伯纳斯·李以研究员的身份重返 CERN。在 1989 年的时候，他看到了将超文本系统与互联网结合在一起的机会。
 
-1989 年 3 月，伯纳斯·李提交了一份标题为[Information Management: A Proposal](https://cds.cern.ch/record/369245/files/dd-89-001.pdf)的提案。在这份提案中，他勾勒出了 Web 的未来。
+1989 年 3 月，伯纳斯·李提交了一份标题为 [Information Management: A Proposal](https://cds.cern.ch/record/369245/files/dd-89-001.pdf) 的提案。在这份提案中，他勾勒出了 Web 的未来。
 
 ## 世界上第一个网站
 
@@ -30,7 +30,7 @@ tag:
 
 世界上第一个网站的地址是: [http://info.cern.ch/hypertext/WWW/TheProject.html](http://info.cern.ch/hypertext/WWW/TheProject.html)
 
-<iframe src="/pages/www.html"
+<iframe src="http://info.cern.ch/hypertext/WWW/TheProject.html"
         width="100%" height="360" frameborder="1" style="background-color: #fff;"
         allowfullscreen sandbox>
 </iframe>
@@ -39,13 +39,15 @@ tag:
 
 1994 年 10 月，伯纳斯·李在麻省理工学院计算机科学实验室创办了万维网联盟（World Wide Web Consortium），简称 W3C。
 
-## 一道经典的面试题
 
-**当键入网址到网页显示，其间发生了什么？**
+# 施工中。。。
+<!-- ## 一道经典的面试题 -->
 
-## 参考资料
+<!-- **当键入网址到网页显示，其间发生了什么？** -->
 
-- [维基百科-蒂姆·伯纳斯·李](https://zh.wikipedia.org/wiki/%E8%92%82%E5%A7%86%C2%B7%E4%BC%AF%E7%BA%B3%E6%96%AF-%E6%9D%8E)
+<!-- ## 参考资料 -->
+
+<!-- - [维基百科-蒂姆·伯纳斯·李](https://zh.wikipedia.org/wiki/%E8%92%82%E5%A7%86%C2%B7%E4%BC%AF%E7%BA%B3%E6%96%AF-%E6%9D%8E)
 
 - [维基百科-万维网](https://zh.wikipedia.org/zh-hans/%E4%B8%87%E7%BB%B4%E7%BD%91)
 
@@ -75,14 +77,14 @@ tag:
 
 - https://www.bilibili.com/video/BV1cE41137tS
 
-- https://thehistoryoftheweb.com/
+- https://thehistoryoftheweb.com/ -->
 
 <!-- ![](https://files.sunguoqi.com/brain-images/202308101755970.jpg) -->
 
 
 
 
-
+<!-- 
 ````markmap
 ---
 markmap:
@@ -109,4 +111,4 @@ markmap:
   - $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
   - [More Katex Examples](#?d=gist:af76a4c245b302206b16aec503dbe07b:katex.md)
 - Now we can wrap very very very very long text based on `maxWidth` option
-````
+```` -->
