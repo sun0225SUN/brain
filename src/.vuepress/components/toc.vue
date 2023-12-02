@@ -20,8 +20,8 @@ import TOC from "vuepress-theme-hope/modules/info/components/TOC.js";
 <style lang="scss" scoped>
 #flip-wrapper {
   position: relative;
-  width: 250px;
-  height: 70px;
+  width: 225px;
+  height: 64px;
   z-index: 1;
   margin-top: 30px;
 }
@@ -50,10 +50,10 @@ import TOC from "vuepress-theme-hope/modules/info/components/TOC.js";
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background: url(https://blog.sunguoqi.com/upload/wx1.png) center center
+  background: url(https://files.sunguoqi.com/images/202312021655002.webp) center center
     no-repeat;
   background-size: 100%;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 
 .back.face {
@@ -61,7 +61,7 @@ import TOC from "vuepress-theme-hope/modules/info/components/TOC.js";
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
   box-sizing: border-box;
-  background: url(https://blog.sunguoqi.com/upload/wx2.png) center center
+  background: url(https://files.sunguoqi.com/images/202312021657605.webp) center center
     no-repeat;
   background-size: 100%;
 }

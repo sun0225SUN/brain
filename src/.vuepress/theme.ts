@@ -42,17 +42,9 @@ export default hopeTheme(
         rss: true,
       },
 
-      // 请 fork 的同学更改评论的仓库配置！！！
       comment: {
-        provider: "Giscus",
-        repo: "sun0225SUN/Brain",
-        repoId: "R_kgDOJNZRqA",
-        category: "General",
-        categoryId: "DIC_kwDOJNZRqM4CWd6B",
-        mapping: "title",
-        lazyLoading: false,
-        reactionsEnabled: true,
-        darkTheme: "dark",
+        provider: "Twikoo",
+        envId: "https://brain-twikoo.sunguoqi.com",
       },
 
       mdEnhance: {
