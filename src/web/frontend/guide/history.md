@@ -14,7 +14,7 @@ tag:
 
 ![](https://files.sunguoqi.com/images/202312021630822.webp "Berners-Lee 伯纳斯·李" =400x)
 
-1980 年 6 月至 12 月间，伯纳斯·李（Berners-Lee）在欧洲核子研究组织（CERN）担任独立承包人，在那段时间里，他提出了一个构想:
+1980 年 6 月至 12 月间，伯纳斯·李（Berners-Lee）在欧洲核子研究组织（CERN）担任独立承包人，在那段时间里，他提出了一个构想：
 
 **创建一个基于超文本概念的系统，以方便研究人员分享和更新信息。**
 
@@ -28,7 +28,7 @@ tag:
 
 1991 年 8 月 6 日，伯纳斯·李发布了世界上第一个网站，该网站用来展示网络是什么，并解释了它的目的。
 
-世界上第一个网站的地址是: [http://info.cern.ch/hypertext/WWW/TheProject.html](http://info.cern.ch/hypertext/WWW/TheProject.html)
+世界上第一个网站的地址是：[http://info.cern.ch/hypertext/WWW/TheProject.html](http://info.cern.ch/hypertext/WWW/TheProject.html)
 
 <iframe src="https://info.cern.ch/hypertext/WWW/TheProject.html"
         width="100%" height="360" frameborder="1" style="background-color: #fff;"
@@ -47,21 +47,21 @@ tag:
 
 <!-- ## 参考资料 -->
 
-<!-- - [维基百科-蒂姆·伯纳斯·李](https://zh.wikipedia.org/wiki/%E8%92%82%E5%A7%86%C2%B7%E4%BC%AF%E7%BA%B3%E6%96%AF-%E6%9D%8E)
+<!-- - [维基百科 - 蒂姆·伯纳斯·李](https://zh.wikipedia.org/wiki/%E8%92%82%E5%A7%86%C2%B7%E4%BC%AF%E7%BA%B3%E6%96%AF-%E6%9D%8E)
 
-- [维基百科-万维网](https://zh.wikipedia.org/zh-hans/%E4%B8%87%E7%BB%B4%E7%BD%91)
+- [维基百科 - 万维网](https://zh.wikipedia.org/zh-hans/%E4%B8%87%E7%BB%B4%E7%BD%91)
 
-- [维基百科-浏览器大战](https://zh.wikipedia.org/wiki/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%A4%A7%E6%88%98)
+- [维基百科 - 浏览器大战](https://zh.wikipedia.org/wiki/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%A4%A7%E6%88%98)
 
 - [Github-全栈工程师培训材料](https://github.com/ruanyf/jstraining)
 
-- [稀土掘金-带你领略前端发展史的江湖恩怨情仇](https://juejin.cn/post/6901076337855823880)
+- [稀土掘金 - 带你领略前端发展史的江湖恩怨情仇](https://juejin.cn/post/6901076337855823880)
 
 - [GitBooks-前端 MVVM 模式开发入门](https://mactaivsh.gitbooks.io/vue-guide-book/content/chapter1.html)
 
 - [CSDN-前端开发 20 年变迁史](https://blog.csdn.net/csdnnews/article/details/90745990)
 
-- [B 站-硬核唠嗑：前端技术演化史](https://www.bilibili.com/video/BV19t4y1A7CP)
+- [B 站 - 硬核唠嗑：前端技术演化史](https://www.bilibili.com/video/BV19t4y1A7CP)
 
 - https://juejin.cn/post/7116326329313656869
 

@@ -10,7 +10,7 @@ export default hopeTheme(
     logo: "/avatar.png",
     hostname: "https://brain.sunguoqi.com",
 
-    iconAssets: ["//at.alicdn.com/t/c/font_4184658_h8wbc7pvu6o.css"],
+    iconAssets: ["//at.alicdn.com/t/c/font_4184658_gug38i2p3r7.css"],
 
     locales: {
       "/": {
