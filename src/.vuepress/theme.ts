@@ -67,7 +67,7 @@ export default hopeTheme(
         include: true,
         attrs: true,
         mark: true,
-        // markmap: true,
+        markmap: true,
         footnote: true,
         container: true,
         align: true,
@@ -88,7 +88,7 @@ export default hopeTheme(
       },
 
       pwa: {
-        favicon: "/avatar.png",
+        favicon: "/favicon.ico",
         cacheHTML: true,
         cachePic: true,
         appendBase: true,

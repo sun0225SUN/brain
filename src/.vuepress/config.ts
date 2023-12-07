@@ -9,13 +9,13 @@ const __dirname = getDirname(import.meta.url);
 export default defineUserConfig({
   // 基础路径
   base: "/",
-  //头部引入，这里引入的是51la统计
+  //头部引入，这里引入的是 51la 统计
   head: [["script", { type: "text/javascript", src: "/assets/js/51la.js" }]],
   // 网站信息
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "小孙同学Coding",
+      title: "小孙同学 Coding",
       description: "热爱可抵漫长岁月！",
     },
   },
