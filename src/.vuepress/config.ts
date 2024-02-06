@@ -1,6 +1,6 @@
 import theme from "./theme.js";
 import { defineUserConfig } from "vuepress";
-import { getDirname, path } from "@vuepress/utils";
+import { getDirname, path } from "vuepress/utils";
 // @ts-ignore
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 

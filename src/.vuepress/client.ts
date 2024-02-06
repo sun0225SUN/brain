@@ -1,4 +1,4 @@
-import { defineClientConfig } from "@vuepress/client";
+import { defineClientConfig } from "vuepress/client";
 
 // @ts-ignore
 import WeChat from "./components/wechat.vue";
