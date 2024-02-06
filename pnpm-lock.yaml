@@ -17,18 +17,9 @@ dependencies:
   '@vuepress/bundler-vite':
     specifier: 2.0.0-rc.6
     version: 2.0.0-rc.6
-  '@vuepress/client':
-    specifier: 2.0.0-rc.6
-    version: 2.0.0-rc.6
   '@vuepress/plugin-feed':
     specifier: 2.0.0-rc.3
     version: 2.0.0-rc.3(vuepress@2.0.0-rc.6)
-  '@vuepress/shared':
-    specifier: 2.0.0-rc.6
-    version: 2.0.0-rc.6
-  '@vuepress/utils':
-    specifier: 2.0.0-rc.6
-    version: 2.0.0-rc.6
   '@vueuse/core':
     specifier: 10.7.2
     version: 10.7.2(vue@3.4.15)
