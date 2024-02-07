@@ -11,21 +11,17 @@ export default hopeTheme(
 
     iconAssets: ["//at.alicdn.com/t/c/font_4184658_gug38i2p3r7.css"],
 
-    locales: {
-      "/": {
-        navbar: navBar,
-        sidebar: sideBar,
-        footer: "GPL Licensed | © sun0225SUN",
-        displayFooter: false,
-        blog: {
-          description: "路虽远行则将至，事虽难做则必成！",
-          intro: "https://blog.sunguoqi.com/about",
-          timeline: "好好学习，天天向上",
-        },
-        metaLocales: {
-          editLink: "编辑此页",
-        },
-      },
+    navbar: navBar,
+    sidebar: sideBar,
+    footer: "GPL Licensed | © sun0225SUN",
+    displayFooter: false,
+    blog: {
+      description: "路虽远行则将至，事虽难做则必成！",
+      intro: "https://blog.sunguoqi.com/about",
+      timeline: "好好学习，天天向上",
+    },
+    metaLocales: {
+      editLink: "编辑此页",
     },
 
     navbarLayout: {
@@ -43,7 +39,7 @@ export default hopeTheme(
 
       comment: {
         provider: "Twikoo",
-        envId: "https://brain-twikoo.sunguoqi.com",
+        envId: "https://brain-comments.netlify.app",
       },
 
       mdEnhance: {
