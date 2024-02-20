@@ -7,7 +7,7 @@ heroText: 小孙同学 の 第二大脑
 tagline: 任何没有经过自己大脑处理过的知识永远都不会真正属于你！
 actions:
   - text: 立即进入 👉
-    link: /web/frontend/guide/history
+    link: /web/frontend/guide/what-is
     type: primary
 
 features:
