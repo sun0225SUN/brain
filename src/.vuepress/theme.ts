@@ -38,8 +38,19 @@ export default hopeTheme(
       },
 
       comment: {
-        provider: "Twikoo",
-        envId: "https://brain-comments.netlify.app/.netlify/functions/twikoo",
+        provider: "Giscus",
+        repo:'sun0225SUN/brain',
+        repoId:'R_kgDOJNZRqA',
+        category:'General',
+        categoryId:'DIC_kwDOJNZRqM4CWd6B',
+        mapping:"title",
+        strict:"1",
+        reactionsEnabled:"1",
+        emitMetadata:"0",
+        inputPosition:"bottom",
+        theme:"preferred_color_scheme",
+        lang:"zh-CN",
+        loading:"lazy"
       },
 
       mdEnhance: {

@@ -1,3 +1,4 @@
+// @ts-ignore
 import { defineClientConfig } from "vuepress/client";
 
 // @ts-ignore
