@@ -1,13 +1,11 @@
 ---
-title: 前端开发简史
+title: 前端开发演进史
 icon: lishi
 order: 2
 author: 小孙同学
 date: 2023-03-25
 category:
   - 前端开发
-tag:
-  - 简史
 ---
 
 ## 一个改变世界的 idea
@@ -112,3 +110,7 @@ markmap:
   - [More Katex Examples](#?d=gist:af76a4c245b302206b16aec503dbe07b:katex.md)
 - Now we can wrap very very very very long text based on `maxWidth` option
 ```` -->
+
+### 相关资料
+
+-[黄玄：前端已死，前端永生](https://www.bilibili.com/video/BV1uz421d7Ch/?vd_source=5e9e4eda306e9f4a06044b5dcea74a7d)

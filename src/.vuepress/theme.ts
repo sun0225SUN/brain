@@ -9,7 +9,7 @@ export default hopeTheme(
     logo: "/avatar.png",
     hostname: "https://brain.sunguoqi.com",
 
-    iconAssets: ["//at.alicdn.com/t/c/font_4184658_gug38i2p3r7.css"],
+    iconAssets: ["//at.alicdn.com/t/c/font_4184658_d8uj8sy867l.css"],
 
     navbar: navBar,
     sidebar: sideBar,
@@ -43,14 +43,10 @@ export default hopeTheme(
         repoId:'R_kgDOJNZRqA',
         category:'General',
         categoryId:'DIC_kwDOJNZRqM4CWd6B',
-        mapping:"title",
-        strict:"1",
-        reactionsEnabled:"1",
-        emitMetadata:"0",
-        inputPosition:"bottom",
-        theme:"preferred_color_scheme",
-        lang:"zh-CN",
-        loading:"lazy"
+        mapping:'title',
+        strict:true,
+        reactionsEnabled:true,
+        inputPosition:'bottom',
       },
 
       mdEnhance: {

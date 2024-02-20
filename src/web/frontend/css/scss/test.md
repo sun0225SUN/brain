@@ -1,6 +1,6 @@
 ---
 title: SCSS
 icon: post
-order: 3
+order: 2
 date: 2023-09-07
 ---

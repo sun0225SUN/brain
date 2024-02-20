@@ -10,13 +10,8 @@ export const navBar = navbar([
   {
     text: "前端开发",
     icon: "frontend",
-    link: "/web/frontend/guide/history",
+    link: "/web/frontend/guide/what-is",
   },
-  // {
-  //   text: "后端开发",
-  //   icon: "backend",
-  //   link: "/web/backend/todo",
-  // },
   {
     text: "数据可视化",
     icon: "dv",
@@ -31,11 +26,6 @@ export const navBar = navbar([
     text: "实用英语",
     icon: "language",
     link: "/en/basic/test.md",
-  },
-  {
-    text: "程序人生",
-    icon: "coder",
-    link: "/life/coder/me",
   },
   {
     text: "更新历史",

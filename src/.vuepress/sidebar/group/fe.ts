@@ -3,13 +3,6 @@ import { arraySidebar } from "vuepress-theme-hope";
 
 export const fe = arraySidebar([
   {
-    icon: "hi",
-    text: "Foreword",
-    prefix: "foreword/",
-    children: "structure",
-    collapsible: true,
-  },
-  {
     icon: "guide",
     text: "Guide",
     prefix: "guide/",
@@ -34,13 +27,6 @@ export const fe = arraySidebar([
     text: "JS",
     icon: "javascript",
     prefix: "js/",
-    children: "structure",
-    collapsible: true,
-  },
-  {
-    text: "ES6",
-    icon: "es6",
-    prefix: "es6/",
     children: "structure",
     collapsible: true,
   },

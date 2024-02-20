@@ -1,6 +1,6 @@
 ---
-title: ES6 入门教程
-icon: book
+title: JS
+icon: javascript
 dir:
   order: 1
 article: false

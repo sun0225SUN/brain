@@ -1,6 +1,6 @@
 ---
-title: My Note
+title: es6
 icon: post
-order: 10
+order: 2
 date: 2023-09-07
 ---

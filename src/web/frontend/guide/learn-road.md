@@ -1,5 +1,5 @@
 ---
-title: 前端学习路线
+title: 前端学习路线图
 icon: luxian
 order: 3
 author: 小孙同学

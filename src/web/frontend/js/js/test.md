@@ -1,6 +1,6 @@
 ---
-title: My Note
-icon: post
+title: JS
+icon: javascript
 order: 3
 date: 2023-09-07
 ---
