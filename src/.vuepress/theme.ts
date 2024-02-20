@@ -39,7 +39,7 @@ export default hopeTheme(
 
       comment: {
         provider: "Twikoo",
-        envId: "https://brain-comments.netlify.app",
+        envId: "https://brain-comments.netlify.app/.netlify/functions/twikoo",
       },
 
       mdEnhance: {
