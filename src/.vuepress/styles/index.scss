@@ -7,6 +7,9 @@
   padding: 0;
 }
 
+.vp-feature-item{
+  flex-basis: calc(25% - 3rem) !important;
+}
 
 // 首页主要信息
 .vp-hero-info-wrapper {
